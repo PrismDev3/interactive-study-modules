@@ -1,0 +1,15 @@
+newmtl spidey_v3_head
+Kd 1 1 1
+Ks 0 0 0
+map_Kd spidey_v3_head.png
+
+newmtl spidey_v3_upper
+Kd 1 1 1
+Ks 0 0 0
+map_Kd spidey_v3_upper.png
+
+newmtl spidey_v3_lower
+Kd 1 1 1
+Ks 0 0 0
+map_Kd spidey_v3_lower.png
+

@@ -1,0 +1,261 @@
+# City map materials
+
+newmtl concrete
+Ka 0.08 0.08 0.08
+Kd 0.50 0.50 0.50
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+
+newmtl glass_blue
+Ka 0.05 0.12 0.18
+Kd 0.25 0.45 0.65
+Ks 0.30 0.40 0.50
+Ns 60
+d 1
+
+newmtl window
+Ka 0.10 0.15 0.20
+Kd 0.55 0.70 0.90
+Ks 0.50 0.60 0.70
+Ns 80
+d 1
+
+newmtl toy_lgray
+Ka 0.10 0.10 0.10
+Kd 0.70 0.70 0.70
+Ks 0.05 0.05 0.05
+Ns 5
+d 1
+
+newmtl toy_dgray
+Ka 0.05 0.05 0.05
+Kd 0.38 0.38 0.38
+Ks 0.05 0.05 0.05
+Ns 5
+d 1
+
+newmtl granite
+Ka 0.05 0.05 0.05
+Kd 0.30 0.28 0.26
+Ks 0.08 0.08 0.08
+Ns 15
+d 1
+
+newmtl limestone
+Ka 0.10 0.10 0.08
+Kd 0.82 0.78 0.68
+Ks 0.05 0.05 0.04
+Ns 8
+d 1
+
+newmtl light_red
+Ka 0.10 0.05 0.03
+Kd 0.75 0.30 0.18
+Ks 0.05 0.03 0.02
+Ns 5
+d 1
+
+newmtl toy_tan
+Ka 0.10 0.08 0.06
+Kd 0.78 0.66 0.50
+Ks 0.04 0.03 0.02
+Ns 5
+d 1
+
+newmtl toy_sandstone
+Ka 0.10 0.08 0.05
+Kd 0.82 0.72 0.58
+Ks 0.04 0.03 0.02
+Ns 5
+d 1
+
+newmtl wood
+Ka 0.06 0.04 0.02
+Kd 0.50 0.35 0.18
+Ks 0.05 0.03 0.02
+Ns 10
+d 1
+
+newmtl copper
+Ka 0.05 0.04 0.02
+Kd 0.50 0.30 0.10
+Ks 0.20 0.15 0.08
+Ns 40
+d 1
+
+newmtl grass
+Ka 0.03 0.07 0.02
+Kd 0.20 0.50 0.10
+Ks 0.02 0.04 0.01
+Ns 5
+d 1
+
+newmtl leaves_dark
+Ka 0.02 0.05 0.01
+Kd 0.12 0.30 0.06
+Ks 0.01 0.02 0.01
+Ns 5
+d 1
+
+newmtl bridge_blue
+Ka 0.03 0.05 0.08
+Kd 0.20 0.30 0.50
+Ks 0.10 0.15 0.25
+Ns 30
+d 1
+
+newmtl deck
+Ka 0.08 0.06 0.03
+Kd 0.60 0.48 0.30
+Ks 0.05 0.04 0.02
+Ns 8
+d 1
+
+newmtl taxi
+Ka 0.10 0.09 0.00
+Kd 1.00 0.85 0.00
+Ks 0.20 0.18 0.00
+Ns 40
+d 1
+
+newmtl car_white
+Ka 0.10 0.10 0.10
+Kd 0.90 0.90 0.90
+Ks 0.30 0.30 0.30
+Ns 50
+d 1
+
+newmtl car_black
+Ka 0.01 0.01 0.01
+Kd 0.07 0.07 0.07
+Ks 0.20 0.20 0.20
+Ns 60
+d 1
+
+newmtl lamp
+Ka 0.10 0.10 0.08
+Kd 0.90 0.85 0.50
+Ks 0.50 0.50 0.40
+Ns 60
+d 1
+
+newmtl seam
+Kd 0.20 0.20 0.21
+Ks 0.02 0.02 0.02
+Ns 5
+d 1
+
+newmtl toy_white
+Kd 0.90 0.90 0.88
+Ks 0.05 0.05 0.05
+Ns 5
+d 1
+
+newmtl toy_brown
+Kd 0.45 0.30 0.20
+Ks 0.03 0.03 0.03
+Ns 5
+d 1
+
+newmtl toy_bluish
+Kd 0.55 0.62 0.72
+Ks 0.08 0.08 0.10
+Ns 20
+d 1
+
+newmtl stone
+Kd 0.60 0.58 0.55
+Ks 0.04 0.04 0.04
+Ns 8
+d 1
+
+newmtl steel
+Kd 0.55 0.57 0.60
+Ks 0.50 0.50 0.55
+Ns 60
+d 1
+
+newmtl iron
+Kd 0.30 0.30 0.32
+Ks 0.30 0.30 0.30
+Ns 40
+d 1
+
+newmtl asphalt
+Kd 0.13 0.13 0.14
+Ks 0.03 0.03 0.03
+Ns 5
+d 1
+
+newmtl water
+Kd 0.10 0.25 0.35
+Ks 0.60 0.60 0.60
+Ns 90
+d 1
+
+newmtl leaves
+Kd 0.20 0.45 0.12
+Ks 0.01 0.02 0.01
+Ns 5
+d 1
+
+newmtl chrome
+Kd 0.80 0.80 0.82
+Ks 0.90 0.90 0.90
+Ns 120
+d 1
+
+newmtl sidewalk
+Kd 0.62 0.60 0.57
+Ks 0.03 0.03 0.03
+Ns 5
+d 1
+
+newmtl path
+Kd 0.55 0.50 0.42
+Ks 0.02 0.02 0.02
+Ns 5
+d 1
+
+newmtl paint
+Kd 0.95 0.95 0.90
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+
+newmtl light_green
+Kd 0.40 0.75 0.40
+Ks 0.05 0.05 0.05
+Ns 10
+d 1
+
+newmtl gold
+Kd 0.85 0.65 0.20
+Ks 0.80 0.65 0.30
+Ns 80
+d 1
+
+newmtl car_red
+Kd 0.75 0.08 0.08
+Ks 0.40 0.40 0.40
+Ns 60
+d 1
+
+newmtl car_gray
+Kd 0.50 0.50 0.52
+Ks 0.40 0.40 0.40
+Ns 60
+d 1
+
+newmtl car_blue
+Kd 0.12 0.25 0.65
+Ks 0.40 0.40 0.40
+Ns 60
+d 1
+
+newmtl bark
+Kd 0.30 0.20 0.12
+Ks 0.02 0.02 0.02
+Ns 5
+d 1

@@ -1,0 +1,16 @@
+{
+  "name": "lego-spiderman",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "qa:player-state": "node tools/qa-player-state.mjs",
+    "qa:swing-target": "node tools/qa-swing-target.mjs",
+    "qa:room-policy": "node tools/qa-room-policy.mjs",
+    "qa:activity": "node tools/qa-activity.mjs",
+    "qa:social-moderation": "node tools/qa-social-moderation.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

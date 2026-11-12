@@ -1,0 +1,22 @@
+Drop your character file here as:
+  character.glb
+
+Expected hierarchy:
+  Armature/
+    Hips
+      Spine → Spine1 → Spine2 → Neck → Head
+                                       └─ Eye_L, Eye_R
+      LeftUpLeg → LeftLeg → LeftFoot
+      RightUpLeg → RightLeg → RightFoot
+    LeftArm → LeftForeArm → LeftHand → WebShooter_L
+    RightArm → RightForeArm → RightHand → WebShooter_R
+
+Mesh naming conventions used by CharacterController.js:
+  - Any mesh with "eye" or "lens" in its name  → white emissive eye material
+  - Any mesh with "web" and "shoot" in its name → orange emissive glow
+  - All other meshes                            → custom suit shader
+
+Animation clip names expected (case-insensitive):
+  Idle | Run (or Sprint) | Crouch | Swing (or WebSwing) | Shoot (or WebShoot) | Land | Fall
+
+If your clips are named differently, edit the CLIP_NAMES map in src/AnimationManager.js.

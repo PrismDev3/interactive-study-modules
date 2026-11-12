@@ -1,0 +1,596 @@
+[
+  {
+    "id": "spiderman-2002",
+    "title": "Spider-Man",
+    "embed": "https://vidsrc.sh/embed/movie/557",
+    "poster": "https://image.tmdb.org/t/p/w500/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+    "year": 2002,
+    "genre": "Spider-Man Films",
+    "desc": "When bitten by a genetically modified spider, a shy high school student gains spider-like abilities that he must use to fight evil."
+  },
+  {
+    "id": "spiderman2-2004",
+    "title": "Spider-Man 2",
+    "embed": "https://vidsrc.sh/embed/movie/558",
+    "poster": "https://image.tmdb.org/t/p/w500/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+    "year": 2004,
+    "genre": "Spider-Man Films",
+    "desc": "Peter Parker battles the brilliant Doctor Otto Octavius while struggling to balance his failing personal life."
+  },
+  {
+    "id": "spiderman3-2007",
+    "title": "Spider-Man 3",
+    "embed": "https://vidsrc.sh/embed/movie/559",
+    "poster": "https://image.tmdb.org/t/p/w500/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+    "year": 2007,
+    "genre": "Spider-Man Films",
+    "desc": "Peter Parker deals with a symbiote that brings out his dark side, while facing Sandman and Venom."
+  },
+  {
+    "id": "amazingspiderman-2012",
+    "title": "The Amazing Spider-Man",
+    "embed": "https://vidsrc.sh/embed/movie/1930",
+    "poster": "https://image.tmdb.org/t/p/w500/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg",
+    "year": 2012,
+    "genre": "Spider-Man Films",
+    "desc": "Peter Parker finds a clue about his parents' disappearance, putting him on a collision course with Dr. Curt Connors."
+  },
+  {
+    "id": "amazingspiderman2-2014",
+    "title": "The Amazing Spider-Man 2",
+    "embed": "https://vidsrc.sh/embed/movie/102382",
+    "poster": "https://image.tmdb.org/t/p/w500/bU7nTmvmy0h3VUP01v1T2imgH6N.jpg",
+    "year": 2014,
+    "genre": "Spider-Man Films",
+    "desc": "Peter Parker faces Electro and the Rhino while his relationship with Gwen Stacy reaches a breaking point."
+  },
+  {
+    "id": "homecoming-2017",
+    "title": "Spider-Man: Homecoming",
+    "embed": "https://vidsrc.sh/embed/movie/315635",
+    "poster": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+    "year": 2017,
+    "genre": "Spider-Man Films",
+    "desc": "Following Civil War, Peter Parker balances high school life with being Spider-Man while facing the Vulture."
+  },
+  {
+    "id": "ffh-2019",
+    "title": "Spider-Man: Far From Home",
+    "embed": "https://vidsrc.sh/embed/movie/429617",
+    "poster": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+    "year": 2019,
+    "genre": "Spider-Man Films",
+    "desc": "Peter Parker is on a European summer trip when Nick Fury recruits him to investigate mysterious elemental creature attacks."
+  },
+  {
+    "id": "nwh-2021",
+    "title": "Spider-Man: No Way Home",
+    "embed": "https://vidsrc.sh/embed/movie/634649",
+    "poster": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "year": 2021,
+    "genre": "Spider-Man Films",
+    "desc": "When Doctor Strange's spell tears the multiverse open, villains and heroes from other universes arrive — and so do other Spider-Men."
+  },
+  {
+    "id": "itsv-2018",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "embed": "https://vidsrc.sh/embed/movie/324857",
+    "poster": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    "year": 2018,
+    "genre": "Spider-Man Films",
+    "desc": "Miles Morales becomes Spider-Man and teams up with Spider-People from across the multiverse to stop Wilson Fisk."
+  },
+  {
+    "id": "atsv-2023",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "embed": "https://vidsrc.sh/embed/movie/569094",
+    "poster": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "year": 2023,
+    "genre": "Spider-Man Films",
+    "desc": "Miles catapults across the Multiverse, where he clashes with a team of Spider-People over how to handle a new threat."
+  },
+  {
+    "id": "venom-2018",
+    "title": "Venom",
+    "embed": "https://vidsrc.sh/embed/movie/335983",
+    "poster": "https://image.tmdb.org/t/p/w500/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+    "year": 2018,
+    "genre": "Spider-Man Films",
+    "desc": "Journalist Eddie Brock bonds with an alien symbiote, giving him incredible powers — and a very weird roommate."
+  },
+  {
+    "id": "venom2-2021",
+    "title": "Venom: Let There Be Carnage",
+    "embed": "https://vidsrc.sh/embed/movie/580489",
+    "poster": "https://image.tmdb.org/t/p/w500/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg",
+    "year": 2021,
+    "genre": "Spider-Man Films",
+    "desc": "Eddie Brock's interview with serial killer Cletus Kasady leads to the birth of the monstrous Carnage."
+  },
+  {
+    "id": "morbius-2022",
+    "title": "Morbius",
+    "embed": "https://vidsrc.sh/embed/movie/526896",
+    "poster": "https://image.tmdb.org/t/p/w500/Av8Z2jZhEm1FLkFzMThzz9hndJF.jpg",
+    "year": 2022,
+    "genre": "Spider-Man Films",
+    "desc": "Biochemist Michael Morbius attempts to cure a rare blood disease and accidentally turns himself into a living vampire."
+  },
+  {
+    "id": "ironman-2008",
+    "title": "Iron Man",
+    "embed": "https://vidsrc.sh/embed/movie/1726",
+    "poster": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+    "year": 2008,
+    "genre": "Marvel",
+    "desc": "Billionaire Tony Stark builds a powered armored suit and becomes Iron Man to fight the forces of evil."
+  },
+  {
+    "id": "ironman2-2010",
+    "title": "Iron Man 2",
+    "embed": "https://vidsrc.sh/embed/movie/10138",
+    "poster": "https://image.tmdb.org/t/p/w500/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+    "year": 2010,
+    "genre": "Marvel",
+    "desc": "Tony Stark faces Ivan Vanko, a vengeful physicist who wants to destroy everything he has built."
+  },
+  {
+    "id": "ironman3-2013",
+    "title": "Iron Man 3",
+    "embed": "https://vidsrc.sh/embed/movie/68721",
+    "poster": "https://image.tmdb.org/t/p/w500/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
+    "year": 2013,
+    "genre": "Marvel",
+    "desc": "Tony Stark faces the Mandarin, a mysterious villain who pushes him to his limits and forces him to think outside the suit."
+  },
+  {
+    "id": "avengers-2012",
+    "title": "The Avengers",
+    "embed": "https://vidsrc.sh/embed/movie/24428",
+    "poster": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "year": 2012,
+    "genre": "Marvel",
+    "desc": "Earth's mightiest heroes must come together to stop Loki and his alien army from enslaving humanity."
+  },
+  {
+    "id": "aou-2015",
+    "title": "Avengers: Age of Ultron",
+    "embed": "https://vidsrc.sh/embed/movie/99861",
+    "poster": "https://image.tmdb.org/t/p/w500/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+    "year": 2015,
+    "genre": "Marvel",
+    "desc": "Tony Stark's peacekeeping AI, Ultron, decides the best way to save the world is to destroy the Avengers."
+  },
+  {
+    "id": "iw-2018",
+    "title": "Avengers: Infinity War",
+    "embed": "https://vidsrc.sh/embed/movie/299536",
+    "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    "year": 2018,
+    "genre": "Marvel",
+    "desc": "Thanos sets out to collect all six Infinity Stones, and the Avengers must stop him from wiping out half of all life."
+  },
+  {
+    "id": "endgame-2019",
+    "title": "Avengers: Endgame",
+    "embed": "https://vidsrc.sh/embed/movie/299534",
+    "poster": "https://image.tmdb.org/t/p/w500/jtDv3lCnST0fZRvdYFwR5CVwK2x.jpg",
+    "year": 2019,
+    "genre": "Marvel",
+    "desc": "The surviving Avengers assemble one final time to undo the damage caused by Thanos and restore balance to the universe."
+  },
+  {
+    "id": "cap1-2011",
+    "title": "Captain America: The First Avenger",
+    "embed": "https://vidsrc.sh/embed/movie/1771",
+    "poster": "https://image.tmdb.org/t/p/w500/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg",
+    "year": 2011,
+    "genre": "Marvel",
+    "desc": "Steve Rogers, a scrawny kid from Brooklyn, becomes a super-soldier and battles the Red Skull in WWII."
+  },
+  {
+    "id": "cap2-2014",
+    "title": "Captain America: The Winter Soldier",
+    "embed": "https://vidsrc.sh/embed/movie/100402",
+    "poster": "https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
+    "year": 2014,
+    "genre": "Marvel",
+    "desc": "Steve Rogers teams up with Black Widow to uncover a conspiracy within S.H.I.E.L.D. while facing a mysterious assassin."
+  },
+  {
+    "id": "civilwar-2016",
+    "title": "Captain America: Civil War",
+    "embed": "https://vidsrc.sh/embed/movie/271110",
+    "poster": "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+    "year": 2016,
+    "genre": "Marvel",
+    "desc": "Political pressure splits the Avengers into opposing factions, forcing Steve Rogers and Tony Stark to come to blows."
+  },
+  {
+    "id": "blackpanther-2018",
+    "title": "Black Panther",
+    "embed": "https://vidsrc.sh/embed/movie/284054",
+    "poster": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    "year": 2018,
+    "genre": "Marvel",
+    "desc": "T'Challa returns to Wakanda to take the throne, but a powerful enemy emerges to challenge his right to be king."
+  },
+  {
+    "id": "wakandaforever-2022",
+    "title": "Black Panther: Wakanda Forever",
+    "embed": "https://vidsrc.sh/embed/movie/505642",
+    "poster": "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+    "year": 2022,
+    "genre": "Marvel",
+    "desc": "Wakanda fights to protect itself from world powers following King T'Challa's death, while a new underwater nation rises."
+  },
+  {
+    "id": "drstrange-2016",
+    "title": "Doctor Strange",
+    "embed": "https://vidsrc.sh/embed/movie/284052",
+    "poster": "https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
+    "year": 2016,
+    "genre": "Marvel",
+    "desc": "A brilliant but arrogant surgeon discovers the hidden world of magic and alternate dimensions after a career-ending accident."
+  },
+  {
+    "id": "thor-ragnarok-2017",
+    "title": "Thor: Ragnarok",
+    "embed": "https://vidsrc.sh/embed/movie/284053",
+    "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+    "year": 2017,
+    "genre": "Marvel",
+    "desc": "Thor must escape the other side of the universe and race to save Asgard from the all-powerful Hela."
+  },
+  {
+    "id": "thor-lat-2022",
+    "title": "Thor: Love and Thunder",
+    "embed": "https://vidsrc.sh/embed/movie/616037",
+    "poster": "https://image.tmdb.org/t/p/w500/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+    "year": 2022,
+    "genre": "Marvel",
+    "desc": "Thor teams up with King Valkyrie, Korg and ex-girlfriend Jane Foster to battle a galactic killer who seeks godly extinction."
+  },
+  {
+    "id": "deadpool-2016",
+    "title": "Deadpool",
+    "embed": "https://vidsrc.sh/embed/movie/293660",
+    "poster": "https://image.tmdb.org/t/p/w500/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg",
+    "year": 2016,
+    "genre": "Marvel",
+    "desc": "Wade Wilson, a wisecracking mercenary, undergoes a rogue experiment and becomes the indestructible, irreverent Deadpool."
+  },
+  {
+    "id": "deadpool2-2018",
+    "title": "Deadpool 2",
+    "embed": "https://vidsrc.sh/embed/movie/383498",
+    "poster": "https://image.tmdb.org/t/p/w500/gyfPKfFYcVW54MoqhYlwwDDIfJR.jpg",
+    "year": 2018,
+    "genre": "Marvel",
+    "desc": "Deadpool forms the X-Force to protect a young mutant from Cable, a time-travelling soldier from the future."
+  },
+  {
+    "id": "deadpool3-2024",
+    "title": "Deadpool & Wolverine",
+    "embed": "https://vidsrc.sh/embed/movie/533535",
+    "poster": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "year": 2024,
+    "genre": "Marvel",
+    "desc": "Deadpool is recruited by the TVA and reluctantly teams up with a Wolverine variant on an MCU-altering mission."
+  },
+  {
+    "id": "antman3-2023",
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "embed": "https://vidsrc.sh/embed/movie/640146",
+    "poster": "https://image.tmdb.org/t/p/w500/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
+    "year": 2023,
+    "genre": "Marvel",
+    "desc": "Scott Lang and Hope Van Dyne are pulled into the Quantum Realm along with their family and must find a way out."
+  },
+  {
+    "id": "suicidesquad2-2021",
+    "title": "The Suicide Squad",
+    "embed": "https://vidsrc.sh/embed/movie/436969",
+    "poster": "https://image.tmdb.org/t/p/w500/q61qEyssk2ku3okWICKArlAdhBn.jpg",
+    "year": 2021,
+    "genre": "DC",
+    "desc": "Supervillains Harley Quinn, Bloodsport and Peacemaker are sent on a suicide mission to destroy a secret laboratory."
+  },
+  {
+    "id": "batman-begins-2005",
+    "title": "Batman Begins",
+    "embed": "https://vidsrc.sh/embed/movie/272",
+    "poster": "https://image.tmdb.org/t/p/w500/sPX89Td70IDDjVr85jdSBb4rWGr.jpg",
+    "year": 2005,
+    "genre": "DC",
+    "desc": "After training with the League of Shadows, Bruce Wayne returns to Gotham to fight corruption as the Dark Knight."
+  },
+  {
+    "id": "dark-knight-2008",
+    "title": "The Dark Knight",
+    "embed": "https://vidsrc.sh/embed/movie/155",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "year": 2008,
+    "genre": "DC",
+    "desc": "Batman faces the Joker, a criminal mastermind who plunges Gotham into anarchy in this generation-defining superhero film."
+  },
+  {
+    "id": "dark-knight-rises-2012",
+    "title": "The Dark Knight Rises",
+    "embed": "https://vidsrc.sh/embed/movie/49026",
+    "poster": "https://image.tmdb.org/t/p/w500/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
+    "year": 2012,
+    "genre": "DC",
+    "desc": "Eight years after the Joker's reign of chaos, Batman is forced out of exile to face the brutal terrorist Bane."
+  },
+  {
+    "id": "bvs-2016",
+    "title": "Batman v Superman: Dawn of Justice",
+    "embed": "https://vidsrc.sh/embed/movie/209112",
+    "poster": "https://image.tmdb.org/t/p/w500/5UsK3grJvtQr4p0Q2fZXFQBDGXT.jpg",
+    "year": 2016,
+    "genre": "DC",
+    "desc": "Fearing the actions of Superman, Batman takes on the Man of Steel while the world wrestles with the hero question."
+  },
+  {
+    "id": "wonderwoman-2017",
+    "title": "Wonder Woman",
+    "embed": "https://vidsrc.sh/embed/movie/297762",
+    "poster": "https://image.tmdb.org/t/p/w500/v4ncgZjG2Zu8ZW5al1vIZTsSjqX.jpg",
+    "year": 2017,
+    "genre": "DC",
+    "desc": "Diana leaves her home island to fight in WWI, discovering her full powers as she becomes Wonder Woman."
+  },
+  {
+    "id": "jl-snyder-2021",
+    "title": "Zack Snyder's Justice League",
+    "embed": "https://vidsrc.sh/embed/movie/791373",
+    "poster": "https://image.tmdb.org/t/p/w500/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg",
+    "year": 2021,
+    "genre": "DC",
+    "desc": "The definitive 4-hour cut of Justice League — Batman assembles a team of metahumans to face an apocalyptic threat."
+  },
+  {
+    "id": "joker-2019",
+    "title": "Joker",
+    "embed": "https://vidsrc.sh/embed/movie/475557",
+    "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    "year": 2019,
+    "genre": "DC",
+    "desc": "Failed comedian Arthur Fleck descends into madness and becomes the criminal mastermind known as the Joker."
+  },
+  {
+    "id": "blackadam-2022",
+    "title": "Black Adam",
+    "embed": "https://vidsrc.sh/embed/movie/436270",
+    "poster": "https://image.tmdb.org/t/p/w500/rCtreCr4xiYEWDQTebybolIh6Xe.jpg",
+    "year": 2022,
+    "genre": "DC",
+    "desc": "Five thousand years after being imprisoned, Black Adam is freed and unleashes his unique form of justice on the modern world."
+  },
+  {
+    "id": "matrix-1999",
+    "title": "The Matrix",
+    "embed": "https://vidsrc.sh/embed/movie/603",
+    "poster": "https://image.tmdb.org/t/p/w500/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+    "year": 1999,
+    "genre": "Sci-Fi",
+    "desc": "A computer hacker discovers that reality is a simulation and joins a rebellion against the machines controlling humanity."
+  },
+  {
+    "id": "matrix-reloaded-2003",
+    "title": "The Matrix Reloaded",
+    "embed": "https://vidsrc.sh/embed/movie/604",
+    "poster": "https://image.tmdb.org/t/p/w500/8xEVAe84zlL9rkfYT6dZXero4KK.jpg",
+    "year": 2003,
+    "genre": "Sci-Fi",
+    "desc": "Neo and the rebels have six hours to save Zion as the machines bore through the Earth to reach the last human city."
+  },
+  {
+    "id": "interstellar-2014",
+    "title": "Interstellar",
+    "embed": "https://vidsrc.sh/embed/movie/157336",
+    "poster": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+    "year": 2014,
+    "genre": "Sci-Fi",
+    "desc": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  },
+  {
+    "id": "inception-2010",
+    "title": "Inception",
+    "embed": "https://vidsrc.sh/embed/movie/27205",
+    "poster": "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+    "year": 2010,
+    "genre": "Sci-Fi",
+    "desc": "A thief who enters people's dreams to steal secrets is given the impossible task of planting an idea instead."
+  },
+  {
+    "id": "arrival-2016",
+    "title": "Arrival",
+    "embed": "https://vidsrc.sh/embed/movie/329865",
+    "poster": "https://image.tmdb.org/t/p/w500/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
+    "year": 2016,
+    "genre": "Sci-Fi",
+    "desc": "A linguist is recruited by the military to communicate with alien lifeforms that have arrived on Earth."
+  },
+  {
+    "id": "avatar-2009",
+    "title": "Avatar",
+    "embed": "https://vidsrc.sh/embed/movie/19995",
+    "poster": "https://image.tmdb.org/t/p/w500/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+    "year": 2009,
+    "genre": "Sci-Fi",
+    "desc": "A paralyzed marine on the alien world Pandora must choose between following orders and protecting the people he has grown to love."
+  },
+  {
+    "id": "avatar2-2022",
+    "title": "Avatar: The Way of Water",
+    "embed": "https://vidsrc.sh/embed/movie/76600",
+    "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "year": 2022,
+    "genre": "Sci-Fi",
+    "desc": "Jake Sully and his family flee their home and explore the regions of Pandora — but an old threat resurfaces."
+  },
+  {
+    "id": "terminator-1984",
+    "title": "The Terminator",
+    "embed": "https://vidsrc.sh/embed/movie/218",
+    "poster": "https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+    "year": 1984,
+    "genre": "Sci-Fi",
+    "desc": "A cyborg assassin travels back in time to kill Sarah Connor before she can give birth to humanity's future leader."
+  },
+  {
+    "id": "madmax-2015",
+    "title": "Mad Max: Fury Road",
+    "embed": "https://vidsrc.sh/embed/movie/76341",
+    "poster": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+    "year": 2015,
+    "genre": "Action",
+    "desc": "In a post-apocalyptic wasteland, Max teams up with a rebel warrior on a daring mission through a desert fortress."
+  },
+  {
+    "id": "johnwick-2014",
+    "title": "John Wick",
+    "embed": "https://vidsrc.sh/embed/movie/245891",
+    "poster": "https://image.tmdb.org/t/p/w500/wXqWR7dHncNRbxoEGybEy7QTe9h.jpg",
+    "year": 2014,
+    "genre": "Action",
+    "desc": "An ex-hitman comes out of retirement to hunt down the gangsters who killed his dog and stole his car."
+  },
+  {
+    "id": "johnwick4-2023",
+    "title": "John Wick: Chapter 4",
+    "embed": "https://vidsrc.sh/embed/movie/603692",
+    "poster": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+    "year": 2023,
+    "genre": "Action",
+    "desc": "John Wick uncovers a path to defeating the High Table, but must face the most fearsome opponents yet."
+  },
+  {
+    "id": "topgun-1986",
+    "title": "Top Gun",
+    "embed": "https://vidsrc.sh/embed/movie/744",
+    "poster": "https://image.tmdb.org/t/p/w500/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
+    "year": 1986,
+    "genre": "Action",
+    "desc": "A young Navy pilot competes with other elite fighters at a Top Gun academy while falling for his instructor."
+  },
+  {
+    "id": "topgunmaverick-2022",
+    "title": "Top Gun: Maverick",
+    "embed": "https://vidsrc.sh/embed/movie/361743",
+    "poster": "https://image.tmdb.org/t/p/w500/n0YuM4f5lvGAX6MAW2kBIzugXnc.jpg",
+    "year": 2022,
+    "genre": "Action",
+    "desc": "After thirty years, Maverick is called back to train a new generation of Top Gun pilots for a near-impossible mission."
+  },
+  {
+    "id": "raiders-1981",
+    "title": "Raiders of the Lost Ark",
+    "embed": "https://vidsrc.sh/embed/movie/85",
+    "poster": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
+    "year": 1981,
+    "genre": "Action",
+    "desc": "Archaeologist Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis."
+  },
+  {
+    "id": "barbie-2023",
+    "title": "Barbie",
+    "embed": "https://vidsrc.sh/embed/movie/346698",
+    "poster": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "year": 2023,
+    "genre": "Comedy",
+    "desc": "Barbie and Ken venture out of Barbieland into the real world after Barbie starts having an existential crisis."
+  },
+  {
+    "id": "oppenheimer-2023",
+    "title": "Oppenheimer",
+    "embed": "https://vidsrc.sh/embed/movie/872585",
+    "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "year": 2023,
+    "genre": "Drama",
+    "desc": "The story of J. Robert Oppenheimer, the physicist who led the Manhattan Project to develop the atomic bomb."
+  },
+  {
+    "id": "godfather-1972",
+    "title": "The Godfather",
+    "embed": "https://vidsrc.sh/embed/movie/238",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "year": 1972,
+    "genre": "Classics",
+    "desc": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son in this landmark crime epic."
+  },
+  {
+    "id": "godfather2-1974",
+    "title": "The Godfather Part II",
+    "embed": "https://vidsrc.sh/embed/movie/240",
+    "poster": "https://image.tmdb.org/t/p/w500/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg",
+    "year": 1974,
+    "genre": "Classics",
+    "desc": "The early life and rise of Vito Corleone intercuts with Michael Corleone's expansion of the family empire."
+  },
+  {
+    "id": "shawshank-1994",
+    "title": "The Shawshank Redemption",
+    "embed": "https://vidsrc.sh/embed/movie/278",
+    "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "year": 1994,
+    "genre": "Classics",
+    "desc": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "id": "schindlers-1993",
+    "title": "Schindler's List",
+    "embed": "https://vidsrc.sh/embed/movie/424",
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "year": 1993,
+    "genre": "Classics",
+    "desc": "The true story of Oskar Schindler, a German businessman who saved the lives of more than a thousand Jewish refugees."
+  },
+  {
+    "id": "incredibles-2004",
+    "title": "The Incredibles",
+    "embed": "https://vidsrc.sh/embed/movie/9806",
+    "poster": "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+    "year": 2004,
+    "genre": "Animation",
+    "desc": "A family of undercover superheroes is forced to save the world when a retired villain rises to threaten them all."
+  },
+  {
+    "id": "walle-2008",
+    "title": "WALL·E",
+    "embed": "https://vidsrc.sh/embed/movie/10681",
+    "poster": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+    "year": 2008,
+    "genre": "Animation",
+    "desc": "A waste-collecting robot finds love and hope in a future where Earth has been abandoned by humanity."
+  },
+  {
+    "id": "findingnemo-2003",
+    "title": "Finding Nemo",
+    "embed": "https://vidsrc.sh/embed/movie/12",
+    "poster": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg",
+    "year": 2003,
+    "genre": "Animation",
+    "desc": "An overprotective clownfish crosses the ocean to find his missing son, helped by a lovably forgetful blue tang."
+  },
+  {
+    "id": "toystory3-2010",
+    "title": "Toy Story 3",
+    "embed": "https://vidsrc.sh/embed/movie/10193",
+    "poster": "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
+    "year": 2010,
+    "genre": "Animation",
+    "desc": "Woody, Buzz and the gang end up at a daycare centre when Andy prepares to leave for college in this tearjerking finale."
+  },
+  {
+    "id": "cars-2006",
+    "title": "Cars",
+    "embed": "https://vidsrc.sh/embed/movie/920",
+    "poster": "https://image.tmdb.org/t/p/w500/2Touk3m5gzsqr1VsvxypdyHY5ci.jpg",
+    "year": 2006,
+    "genre": "Animation",
+    "desc": "Hot-shot race car Lightning McQueen gets stranded in a small town and learns what really matters in life."
+  }
+]

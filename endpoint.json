@@ -1,0 +1,5 @@
+{
+  "base": "https://library-pest-traffic-train.trycloudflare.com",
+  "note": "Live base URL the SVG modules load. This is the ONLY file to change when the tunnel URL moves — then purge jsDelivr: https://purge.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/endpoint.json",
+  "updated": "2026-11-12"
+}

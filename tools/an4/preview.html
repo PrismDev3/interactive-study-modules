@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AN4 Clip Viewer</title>
+<style>
+  :root { --bg: #1b1d22; --fg: #e8e8ea; --panel: #2a2d34; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 13px system-ui, sans-serif; overflow: hidden; }
+  #ui { position: fixed; top: 8px; left: 8px; background: var(--panel); padding: 8px 10px; border-radius: 6px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; max-width: calc(100vw - 32px); }
+  select, button, input { font: inherit; }
+  #info { opacity: .8; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="ui">
+  <select id="rig"><option value="spiderman">spiderman (63)</option><option value="venombigfig">venombigfig (70)</option></select>
+  <select id="bank"><option>minifig</option><option>bigfig</option></select>
+  <select id="clip"></select>
+  <label>speed <input id="speed" type="range" min="0" max="2" step="0.05" value="1"></label>
+  <label><input id="paused" type="checkbox"> pause</label>
+  <input id="scrub" type="range" min="0" max="1" step="0.001" value="0" style="width:160px">
+  <span id="info"></span>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { loadClipBank, ClipPlayer, Retarget } from '../../src/BigfigAnim.js?v=preview3';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(devicePixelRatio); renderer.setSize(innerWidth, innerHeight);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0x1b1d22);
+const cam = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 0.01, 100); cam.position.set(1.0, 0.6, 1.4);
+const ctl = new OrbitControls(cam, renderer.domElement); ctl.target.set(0, 0.25, 0);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x444455, 2.2));
+const sun = new THREE.DirectionalLight(0xffffff, 1.6); sun.position.set(2, 3, 2); scene.add(sun);
+scene.add(new THREE.GridHelper(4, 40, 0x555a66, 0x33363d));
+addEventListener('resize', () => { renderer.setSize(innerWidth, innerHeight); cam.aspect = innerWidth / innerHeight; cam.updateProjectionMatrix(); });
+
+const $ = id => document.getElementById(id);
+let model = null, bones = {}, player = null, retarget = null, bank = null, hipsBind = null;
+const loader = new GLTFLoader();
+
+async function setup() {
+  if (model) scene.remove(model);
+  const g = await loader.loadAsync(`../../assets/models/minifigs/${$('rig').value}.glb`);
+  model = g.scene; scene.add(model);
+  bones = {}; model.traverse(n => { if (n.isBone) bones[n.name] ??= n; });
+  const box = new THREE.Box3().setFromObject(model); const h = box.max.y - box.min.y;
+  ctl.target.set(0, h / 2, 0); cam.position.set(h * 2.2, h * 1.2, h * 3.2);
+  hipsBind = bones.Hips.position.clone();
+  bank = await loadClipBank($('bank').value);
+  player = new ClipPlayer(bank, bones);
+  retarget = bank.name === 'minifig' ? new Retarget(bank, bones.Character) : null;
+  const keep = $('clip').value;
+  $('clip').innerHTML = Object.keys(bank.clips).map(k => `<option>${k}</option>`).join('');
+  if (bank.clips[keep]) $('clip').value = keep;
+  play();
+}
+function play() { player.play($('clip').value, { restart: true, fade: 0.001, loop: true }); }
+$('rig').onchange = setup; $('bank').onchange = setup; $('clip').onchange = play;
+$('scrub').oninput = () => { if (player?.cur) { $('paused').checked = true; player.cur.t = $('scrub').value * player.cur.clip.dur; } };
+
+const clock = new THREE.Clock();
+renderer.setAnimationLoop(() => {
+  const dt = clock.getDelta();
+  if (player?.cur) {
+    const paused = $('paused').checked;
+    player.update(paused ? 0 : dt * +$('speed').value);
+    if (retarget) retarget.apply(player.out, 1);
+    else player.joints.forEach((b, j) => b && b.quaternion.copy(player.out[j]));
+    bones.Hips.position.copy(hipsBind).add(player.hips);
+    if (!paused) $('scrub').value = player.progress();
+    $('info').textContent = `${player.cur.clip.n} frames · t=${player.cur.t.toFixed(2)}s`;
+  }
+  ctl.update(); renderer.render(scene, cam);
+});
+window.__an4 = { get player() { return player; }, get bones() { return bones; }, setup, cam, ctl };
+setup();
+</script>
+</body>
+</html>

@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#070a0f" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <script>
+    // Touch layout from the first paint, so the HUD and controls never flash as desktop UI.
+    if ((matchMedia('(pointer: coarse)').matches && matchMedia('(hover: none)').matches)
+        || /[?&]touch=1/.test(location.search)) document.documentElement.classList.add('touch');
+  </script>
+  <title>LEGO Spider-Man: Web of Bricks</title>
+  <link rel="preload" href="assets/fonts/LilitaOne-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; }
+    body { background: #000; overflow: hidden; color: #fff; }
+    img, .px { image-rendering: pixelated; }
+    #canvas-container { width: 100%; height: 100vh; height: 100dvh; }
+    /* Screenshot mode (O): only the game view */
+    body.shot > *:not(#canvas-container):not(script) { visibility: hidden !important; }
+
+    /* ── Legal / disclaimer gate (first entry) ─────────────────────────────── */
+    /* ── Legal / disclaimer gate (first entry) ─────────────────────────────── */
+    /* Authentic TT Games LEGO interface: sculpted dark plate, clean Marvel-red
+       header with custom Spidey SVG vector emblem, uncluttered typography, and 3D brick buttons. */
+    .legal-gate {
+      position: fixed; inset: 0; z-index: 100000;
+      display: none; place-items: center; padding: clamp(14px, 3vw, 28px);
+      background: radial-gradient(circle at 50% 35%, rgba(18, 26, 40, 0.94), rgba(4, 6, 10, 0.98));
+      backdrop-filter: blur(8px);
+    }
+    .legal-gate.show { display: grid; animation: legal-fade .18s cubic-bezier(0.2, 0.9, 0.3, 1); }
+    @keyframes legal-fade { from { opacity: 0; } to { opacity: 1; } }
+
+    .legal-card {
+      position: relative; width: min(680px, 100%); max-height: 88vh;
+      display: flex; flex-direction: column; overflow: hidden;
+      background: #111722; color: #dce3ee;
+      border: 4px solid #070a0f; border-radius: 14px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12),
+                  inset 0 -4px 0 rgba(0, 0, 0, 0.5),
+                  0 8px 0 #070a0f,
+                  0 24px 60px rgba(0, 0, 0, 0.85);
+      font-family: 'Fredoka', system-ui, sans-serif;
+      animation: legal-pop .2s cubic-bezier(.2, 1.25, .4, 1);
+    }
+    @keyframes legal-pop { from { transform: translateY(14px) scale(.98); } to { transform: none; } }
+
+    .legal-top {
+      position: relative; flex: none; display: flex; align-items: center;
+      justify-content: space-between; gap: 14px; padding: 14px 20px;
+      background: linear-gradient(180deg, #d6202a 0%, #aa141c 100%);
+      border-bottom: 3.5px solid #070a0f;
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.3), inset 0 -3px 0 rgba(0, 0, 0, 0.3);
+    }
+    .legal-title-wrap {
+      display: flex; align-items: center; gap: 12px;
+    }
+    .legal-hero-svg {
+      flex: none; display: block; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.4));
+    }
+    .legal-top h2 {
+      margin: 0; font-family: var(--font-display, 'Lilita One', sans-serif);
+      font-size: clamp(20px, 3.4vw, 25px); line-height: 1; letter-spacing: .05em; text-transform: uppercase;
+      color: #ffe28a;
+      text-shadow: 0 2px 0 #5c080d, 0 3px 0 #070a0f, 0 4px 8px rgba(0, 0, 0, .5);
+    }
+    .legal-badge {
+      flex: none; display: inline-flex; align-items: center;
+      font-family: var(--font-display, 'Lilita One', sans-serif);
+      font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+      color: #1a1200;
+      background: linear-gradient(180deg, #ffe28a 0%, #f5c518 100%);
+      border: 2px solid #070a0f; border-radius: 6px;
+      padding: 5px 11px 4px;
+      box-shadow: inset 0 1px 0 #fff, 0 3px 0 #070a0f;
+    }
+
+    .legal-body {
+      flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 18px 22px 12px;
+      scrollbar-width: thin; scrollbar-color: #35445a #0b0f16;
+    }
+    .legal-body::-webkit-scrollbar { width: 8px; }
+    .legal-body::-webkit-scrollbar-track { background: #0b0f16; border-radius: 4px; }
+    .legal-body::-webkit-scrollbar-thumb {
+      background: #35445a; border-radius: 4px; border: 1.5px solid #070a0f;
+    }
+    .legal-body::-webkit-scrollbar-thumb:hover { background: #4a5d7a; }
+
+    .legal-sub {
+      font: 600 11px/1.4 'Fredoka', system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase;
+      color: #8fa0b8; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1.5px solid #1c2636;
+    }
+    .legal-intro {
+      font-size: 14px; line-height: 1.6; color: #f1ede4; margin: 0 0 14px;
+    }
+    .legal-intro b { color: #fff; }
+
+    .legal-section {
+      margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px solid #1a2332;
+    }
+    .legal-section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+    .legal-h3 {
+      display: flex; align-items: center; gap: 8px; margin: 0 0 6px;
+      font-family: var(--font-display, 'Lilita One', sans-serif);
+      font-size: 13.5px; letter-spacing: .08em; text-transform: uppercase;
+      color: #ffe28a;
+    }
+    .legal-dot {
+      display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+      border: 1.5px solid #070a0f; flex: none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+    }
+    .legal-dot.red { background: #d6202a; }
+    .legal-dot.yellow { background: #f5c518; }
+    .legal-dot.blue { background: #1f5fb0; }
+    .legal-dot.green { background: #3f9e4d; }
+
+    .legal-section p {
+      margin: 0 0 6px; font-size: 13px; line-height: 1.55; color: #c4cede;
+    }
+    .legal-section p:last-child { margin-bottom: 0; }
+    .legal-section b { color: #fff; font-weight: 600; }
+
+    .legal-section ul {
+      list-style: none; margin: 4px 0 0; padding: 0;
+    }
+    .legal-section li {
+      position: relative; padding-left: 16px; margin-bottom: 5px;
+      font-size: 13px; line-height: 1.5; color: #c4cede;
+    }
+    .legal-section li::before {
+      content: ''; position: absolute; left: 2px; top: 7px; width: 5px; height: 5px;
+      border-radius: 50%; background: #f5c518; border: 1px solid #070a0f;
+    }
+
+    /* ── Action buttons: robust, guaranteed LEGO brick styling ──────────────── */
+    .legal-foot {
+      flex: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+      padding: 12px 20px 14px; border-top: 3px solid #070a0f;
+      background: #0d121a;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+    .legal-note {
+      font: 500 11.5px/1.4 'Fredoka', system-ui, sans-serif; color: #8292a8;
+    }
+    .legal-note b { color: #f5c518; }
+    .legal-actions {
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    }
+
+    .legal-foot button,
+    .legal-btn,
+    #legal-accept,
+    #legal-decline {
+      font-family: var(--font-display, 'Lilita One', sans-serif) !important;
+      font-size: 15px !important; letter-spacing: .06em !important; text-transform: uppercase !important;
+      cursor: pointer !important; padding: 11px 22px 10px !important; border-radius: 8px !important;
+      border: 3px solid #070a0f !important;
+      display: inline-flex !important; align-items: center !important; justify-content: center !important;
+      line-height: 1 !important; text-decoration: none !important;
+      transition: transform .08s ease, box-shadow .08s ease, filter .12s !important;
+    }
+
+    .legal-btn-accept,
+    #legal-accept {
+      color: #1a1200 !important;
+      background: linear-gradient(180deg, #ffe28a 0%, #f5c518 100%) !important;
+      box-shadow: inset 0 2px 0 #fff7d6, inset 0 -4px 0 #a87900, 0 4px 0 #070a0f !important;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45) !important;
+    }
+    .legal-btn-accept:hover,
+    #legal-accept:hover {
+      transform: translateY(-2px) !important; filter: brightness(1.06) !important;
+      box-shadow: inset 0 2px 0 #fff7d6, inset 0 -4px 0 #a87900, 0 6px 0 #070a0f !important;
+    }
+    .legal-btn-accept:active,
+    #legal-accept:active {
+      transform: translateY(2px) !important;
+      box-shadow: inset 0 2px 0 #fff7d6, inset 0 -1px 0 #a87900, 0 1px 0 #070a0f !important;
+    }
+
+    .legal-btn-decline,
+    #legal-decline {
+      color: #cbd5e1 !important;
+      background: linear-gradient(180deg, #2a3444 0%, #171f2b 100%) !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), inset 0 -4px 0 #0a0e14, 0 4px 0 #070a0f !important;
+      text-shadow: 0 1px 2px #000 !important;
+    }
+    .legal-btn-decline:hover,
+    #legal-decline:hover {
+      transform: translateY(-2px) !important; color: #fff !important; filter: brightness(1.1) !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -4px 0 #0a0e14, 0 6px 0 #070a0f !important;
+    }
+    .legal-btn-decline:active,
+    #legal-decline:active {
+      transform: translateY(2px) !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 #0a0e14, 0 1px 0 #070a0f !important;
+    }
+
+    .legal-foot button:focus-visible,
+    #legal-accept:focus-visible,
+    #legal-decline:focus-visible { outline: 3px solid #ffe28a !important; outline-offset: 2px !important; }
+
+    /* Corner LEGAL button */
+    .legal-open {
+      position: fixed; left: 14px; bottom: 12px; z-index: 9000; cursor: pointer;
+      display: inline-flex; align-items: center; gap: 6px;
+      font: 400 11px/1 var(--font-display, 'Lilita One', sans-serif);
+      letter-spacing: .12em; text-transform: uppercase;
+      color: #ffe28a;
+      background: linear-gradient(180deg, #1f2a3a 0%, #121924 100%);
+      border: 2px solid #070a0f; border-radius: 6px;
+      padding: 6px 11px 5px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 3px 0 #070a0f;
+      transition: transform .1s, color .15s, border-color .15s;
+    }
+    .legal-open::before {
+      content: ''; width: 6px; height: 6px; border-radius: 50%;
+      background: #f5c518; border: 1px solid #070a0f;
+      box-shadow: 0 0 5px rgba(245, 197, 24, 0.8);
+    }
+    .legal-open:hover {
+      transform: translateY(-2px); color: #fff;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 5px 0 #070a0f;
+    }
+    .legal-open:active {
+      transform: translateY(1px);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 #070a0f;
+    }
+    body.in-game .legal-open { display: none; }
+
+    @media (max-width: 620px) {
+      .legal-top { padding: 12px 14px; }
+      .legal-top h2 { font-size: 18px; }
+      .legal-badge { display: none; }
+      .legal-body { padding: 14px 16px 8px; }
+      .legal-foot { padding: 10px 14px 12px; }
+      .legal-actions { width: 100%; }
+      .legal-actions button { flex: 1 1 auto; }
+    }
+  </style>
+  <link rel="stylesheet" href="src/lego-ui.css?v=124">
+  <link rel="stylesheet" href="src/social.css?v=17">
+</head>
+<body>
+  <!-- First-entry disclaimer gate: see the script at the end of <body> -->
+  <div class="legal-gate" id="legal-gate" role="dialog" aria-modal="true" aria-labelledby="legal-title">
+    <div class="legal-card">
+      <header class="legal-top">
+        <div class="legal-title-wrap">
+          <svg class="legal-hero-svg" viewBox="0 0 40 40" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="20" r="19" fill="#070a0f"/>
+            <circle cx="20" cy="20" r="17" fill="url(#spidey-head-grad)"/>
+            <defs>
+              <radialGradient id="spidey-head-grad" cx="40%" cy="30%" r="65%">
+                <stop offset="0%" stop-color="#ff4757"/>
+                <stop offset="65%" stop-color="#d6202a"/>
+                <stop offset="100%" stop-color="#8a0f16"/>
+              </radialGradient>
+            </defs>
+            <path d="M20 3 L20 37 M3 20 L37 20 M8 8 L32 32 M8 32 L32 8" stroke="#070a0f" stroke-width="1.2" opacity="0.45"/>
+            <ellipse cx="20" cy="20" rx="8" ry="7" stroke="#070a0f" stroke-width="1.2" fill="none" opacity="0.45"/>
+            <ellipse cx="20" cy="20" rx="14" ry="13" stroke="#070a0f" stroke-width="1.2" fill="none" opacity="0.45"/>
+            <path d="M10 14 C12 19 15 21 17.5 18 C17.5 15 15.5 12 11 12 Z" fill="#ffffff" stroke="#070a0f" stroke-width="2.2" stroke-linejoin="round"/>
+            <path d="M30 14 C28 19 25 21 22.5 18 C22.5 15 24.5 12 29 12 Z" fill="#ffffff" stroke="#070a0f" stroke-width="2.2" stroke-linejoin="round"/>
+          </svg>
+          <h2 id="legal-title">Fan Project Notice</h2>
+        </div>
+        <span class="legal-badge">Unofficial &middot; Non-Commercial</span>
+      </header>
+
+      <div class="legal-body">
+        <div class="legal-sub">Personal Educational Homage &middot; Non-Commercial &middot; Free to Play</div>
+
+        <p class="legal-intro"><b>This is an unofficial, non-profit fan-made game.</b> Developed strictly as a personal, educational hobby project to practice 3D web game mechanics, custom physics, procedural lighting, and interactive brick rendering. It is <b>not</b> an official product and is strictly <b>not for sale</b>.</p>
+
+        <div class="legal-section">
+          <h3 class="legal-h3"><span class="legal-dot red"></span> No Affiliation</h3>
+          <p>This fan project is <b>not affiliated with, endorsed by, sponsored by, or connected to</b> The LEGO Group, Marvel Entertainment, The Walt Disney Company, Sony Pictures, Insomniac Games, or any of their subsidiaries or affiliates. All characters, names, logos, suits, and trademarks belong exclusively to their respective owners.</p>
+        </div>
+
+        <div class="legal-section">
+          <h3 class="legal-h3"><span class="legal-dot yellow"></span> Non-Commercial &amp; 100% Free</h3>
+          <p>This project is completely free to experience. No money is charged now or ever:</p>
+          <ul>
+            <li><b>Zero Cost:</b> No purchase price, no subscriptions, no ads, and no donations.</li>
+            <li><b>No Microtransactions:</b> No real-money store, no crypto, no NFTs, and no resale.</li>
+            <li><b>Cosmetic Only:</b> All studs and suit unlocks exist solely in your local browser save.</li>
+          </ul>
+        </div>
+
+        <div class="legal-section">
+          <h3 class="legal-h3"><span class="legal-dot blue"></span> Fan-Made Assets &amp; Fair Use</h3>
+          <p>All minifigure models, textures, animations, city geometry, shaders, and web audio are fan-made recreations, procedural art, or low-detail homages created specifically for this project. None are extracted from commercial titles. Created under fair use for educational commentary.</p>
+        </div>
+
+        <div class="legal-section">
+          <h3 class="legal-h3"><span class="legal-dot green"></span> Takedown Policy &amp; Safety</h3>
+          <p><b>Takedown Policy:</b> If you own rights to any intellectual property represented here and object to its inclusion, please contact the author and it will be removed promptly with zero dispute. This hobby project honors all rights holders' wishes.</p>
+          <p><b>Audience &amp; Safety:</b> Intended for players aged 13+. Multiplayer rooms are player-hosted and unmoderated. Play responsibly and never share private personal information in chat.</p>
+        </div>
+      </div>
+
+      <div class="legal-foot">
+        <span class="legal-note">Shown once &middot; Reopen anytime via the <b>LEGAL</b> button</span>
+        <div class="legal-actions">
+          <button type="button" class="legal-btn-decline" id="legal-decline">EXIT</button>
+          <button type="button" class="legal-btn-accept" id="legal-accept">I UNDERSTAND &middot; CONTINUE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="legal-open" id="legal-open" type="button" aria-label="Open legal notice">LEGAL</button>
+
+  <div id="boot-screen" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading">
+    <div class="boot-sky"></div>
+    <div class="boot-web"></div>
+    <div class="boot-center">
+      <img class="boot-spidey" src="assets/ui/spidey_portrait.png" alt="">
+      <div class="boot-title">SPIDER-MAN</div>
+      <div class="boot-sub">WEB OF BRICKS</div>
+    </div>
+    <div class="boot-bottom">
+      <div class="boot-row"><span id="boot-msg">Loading</span><span id="boot-pct">0%</span></div>
+      <div class="boot-bar"><div id="boot-fill"></div></div>
+      <div id="boot-tip"></div>
+    </div>
+  </div>
+
+  <div id="loading-screen">
+    <canvas id="menu-3d" aria-hidden="true"></canvas>
+    <div id="menu-vignette"></div>
+
+    <h1 id="wordmark" aria-label="LEGO Spider-Man: Web of Bricks">
+      <span class="wm-badge">LEGO</span>
+      <span class="wm-title" data-text="SPIDER-MAN"></span>
+      <span class="wm-sub">WEB OF BRICKS</span>
+    </h1>
+
+    <div id="title-profile" aria-hidden="true">
+      <img class="tp-face" src="assets/ui/spidey_portrait.png" alt="">
+      <div class="tp-copy">
+        <b id="tp-name">PLAYER</b>
+        <span id="tp-studs">0 STUDS</span>
+      </div>
+    </div>
+
+    <div id="menu-nametag"></div>
+
+    <div class="screen panel" id="scr-name">
+      <div class="menu-head">WHAT'S YOUR NAME?</div>
+      <div class="set-note" style="text-align:center">This is how other heroes will see you online. You can change it later in Settings.</div>
+      <form id="name-form" autocomplete="off">
+        <input id="player-name" maxlength="16" placeholder="Your name" spellcheck="false" aria-label="Player name">
+        <button class="brick yellow" type="submit">CONTINUE</button>
+      </form>
+      <div class="menu-err"></div>
+    </div>
+
+    <div class="screen" id="scr-main">
+      <nav class="tt-menu title-menu" id="main-menu" aria-label="Main menu">
+        <button class="tt-item" id="btn-single" data-react="cheer">
+          <span class="ti-num">01</span>
+          <span class="ti-body"><span class="ti-label">Single Player</span><span class="ti-desc">Story chapters and free play</span></span>
+        </button>
+        <button class="tt-item" id="btn-online" data-react="wave">
+          <span class="ti-num">02</span>
+          <span class="ti-body"><span class="ti-label">Online</span><span class="ti-desc">Rooms, lobbies and friends</span></span>
+        </button>
+        <button class="tt-item" id="btn-suit" data-react="spin">
+          <span class="ti-num">03</span>
+          <span class="ti-body"><span class="ti-label">Locker</span><span class="ti-desc">Suits, gear and custom colours</span></span>
+        </button>
+        <button class="tt-item" id="btn-settings" data-react="look">
+          <span class="ti-num">04</span>
+          <span class="ti-body"><span class="ti-label">Settings</span><span class="ti-desc">Audio, controls and interface</span></span>
+        </button>
+        <button class="tt-item" id="btn-extras" data-react="flex">
+          <span class="ti-num">05</span>
+          <span class="ti-body"><span class="ti-label">Extras</span><span class="ti-desc">Controls, credits and profile</span></span>
+        </button>
+        <button class="tt-item" id="btn-bugle" data-react="look">
+          <span class="ti-num">06</span>
+          <span class="ti-body"><span class="ti-label">Daily Bugle</span><span class="ti-desc">Photos and links, all the news</span></span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="screen" id="scr-single">
+      <div class="tt-head">
+        <span class="kicker">PLAY</span>
+        <h2 class="screen-title">SINGLE PLAYER</h2>
+      </div>
+      <nav class="tt-menu title-menu" aria-label="Single player">
+        <button class="tt-item big" id="btn-story" data-react="flex">
+          <span class="ti-num">A</span>
+          <span class="ti-body"><span class="ti-label">Story</span><small id="story-note"></small></span>
+        </button>
+        <button class="tt-item" id="btn-freeplay" data-react="wave">
+          <span class="ti-num">B</span>
+          <span class="ti-body"><span class="ti-label">Free Play</span><small id="freeplay-note"></small></span>
+        </button>
+        <button class="tt-item" id="btn-gauntlet" data-react="wave">
+          <span class="ti-num">C</span>
+          <span class="ti-body"><span class="ti-label">Gauntlet</span><small id="gauntlet-note">Endless rounds. How far can you go?</small></span>
+        </button>
+        <button class="tt-item back" data-back="scr-main">
+          <span class="ti-num"></span>
+          <span class="ti-body"><span class="ti-label">Back</span></span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="screen full" id="scr-chapters">
+      <div class="full-shell">
+        <header class="campaign-head">
+          <div class="ch-copy">
+            <span class="kicker">STORY MODE</span>
+            <h2 class="screen-title">CHOOSE YOUR CHAPTER</h2>
+          </div>
+          <div class="campaign-progress">
+            <div class="cp-track"><i id="cp-fill"></i></div>
+            <span id="cp-count">0 / 6 COMPLETE</span>
+          </div>
+        </header>
+        <div class="campaign-body">
+          <nav id="chapter-list" class="tt-menu" aria-label="Chapters"></nav>
+          <aside id="chapter-card" aria-live="polite">
+            <div class="cc-head">
+              <div class="cc-portrait"><div id="cc-face" class="face"></div></div>
+              <div class="cc-id">
+                <span id="cc-num">CHAPTER 01</span>
+                <span id="cc-state">PLAY</span>
+              </div>
+            </div>
+            <h3 id="cc-name">HYDRA in Brooklyn</h3>
+            <p id="cc-obj"></p>
+            <div id="cc-pips"></div>
+            <div class="cc-meta">
+              <span>MISSION PROGRESS</span>
+              <span id="cc-progress">0 / 6</span>
+            </div>
+            <button class="brick yellow" id="cc-play">PLAY CHAPTER</button>
+            <div id="cc-lock-note"></div>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen panel" id="scr-settings">
+      <div class="menu-head">SETTINGS</div>
+      <label class="set-row">Player name <input id="set-name" maxlength="16" spellcheck="false"><span></span></label>
+      <label class="set-row">Look sensitivity <input type="range" data-set="sens" min="0.4" max="2.5" step="0.1"><output></output></label>
+      <label class="set-row">Master volume <input type="range" data-set="masterVol" min="0" max="1" step="0.05"><output></output></label>
+      <label class="set-row">Mute all <input type="checkbox" data-set="mute"><span></span></label>
+      <label class="set-row">Interface sounds <input type="range" data-set="uiVol" min="0" max="1" step="0.05"><output></output></label>
+      <label class="set-row">Sound volume <input type="range" data-set="sfxVol" min="0" max="1" step="0.05"><output></output></label>
+      <label class="set-row">Music <input type="checkbox" data-set="music"><span></span></label>
+      <label class="set-row">Voice acting <input type="checkbox" data-set="voice"><span></span></label>
+      <label class="set-row">Music volume <input type="range" data-set="musicVol" min="0" max="1" step="0.05"><output></output></label>
+      <label class="set-row">City ambience <input type="range" data-set="ambVol" min="0" max="1" step="0.05"><output></output></label>
+      <label class="set-row">Render distance <input type="range" data-set="viewDist" min="200" max="1700" step="50"><output></output></label>
+      <label class="set-row">Interface size <input type="range" data-set="uiScale" min="0.8" max="1.3" step="0.05"><output></output></label>
+      <label class="set-row">Show minimap <input type="checkbox" data-set="minimap"><span></span></label>
+      <label class="set-row">Show ability keys <input type="checkbox" data-set="abilityBar"><span></span></label>
+      <label class="set-row">Reduce motion <input type="checkbox" data-set="reduceMotion"><span></span></label>
+      <label class="set-row">Unlock Free Play (testing) <input type="checkbox" id="set-freeplay-dev"><span></span></label>
+      <div class="set-note">Settings save on this device straight away.</div>
+      <button class="brick ghost" data-back="scr-main">BACK</button>
+    </div>
+
+    <div class="screen panel" id="scr-extras">
+      <div class="menu-head">EXTRAS</div>
+      <div id="menu-profile"></div>
+      <div class="menu-sub">CONTROLS</div>
+      <p class="touch-note">Left thumb moves. Drag the right side to look. Jump, web and punch sit at the bottom right; your hero's ability tiles are just above them.</p>
+      <dl class="ctrl-list extras-ctrl">
+        <dt>WASD</dt><dd>Move &middot; Shift sprint &middot; C crouch</dd>
+        <dt>SPACE</dt><dd>Jump, leap off walls</dd>
+        <dt>E / LMB</dt><dd>Web: hold to swing</dd>
+        <dt>Q</dt><dd>Web zip</dd>
+        <dt>F</dt><dd>Punch, in the air: slam</dd>
+        <dt>V</dt><dd>Web shot</dd>
+        <dt>R &middot; G &middot; X</dt><dd>Hero abilities</dd>
+        <dt>B</dt><dd>Emotes</dd>
+        <dt>K</dt><dd>Summon menu (Free Play)</dd>
+        <dt>M</dt><dd>Minimap</dd>
+        <dt>ESC</dt><dd>Pause</dd>
+      </dl>
+      <div class="menu-sub">CREDITS</div>
+      <p class="credits">Fan-made LEGO-style Spider-Man game, not affiliated with the LEGO Group or Marvel. Lilita One &amp; Fredoka (OFL), three.js (MIT). Sounds made live in the browser.</p>
+      <button class="brick ghost" data-back="scr-main">BACK</button>
+    </div>
+
+    <div class="screen panel" id="scr-suit">
+      <div class="menu-head">LOCKER</div>
+      <div id="locker-studs"><span class="stud-icon"></span><span id="locker-count">0</span></div>
+      <div id="suit-row">
+        <canvas id="suit-preview" width="220" height="280"></canvas>
+        <div id="locker-side">
+          <div id="locker-tabs">
+            <button data-tab="heroes">HEROES</button><button data-tab="suits" class="on">SUITS</button><button data-tab="custom">CUSTOM</button><button data-tab="gear">GEAR</button><button data-tab="emotes">EMOTES</button>
+          </div>
+          <div class="tab" id="tab-heroes"><div id="hero-blurb" class="set-note">Pick who you play as. Abilities: R, G and X.</div><div id="suit-grid-heroes"><div id="hero-grid"></div></div></div>
+          <div class="tab on" id="tab-suits"><div id="suit-grid"></div></div>
+          <div class="tab" id="tab-custom">
+            <div class="pal-row"><span>SUIT</span><div class="palette" data-slot="red"></div></div>
+            <div class="pal-row"><span>WEB LINES</span><div class="palette" data-slot="line"></div></div>
+            <div class="pal-row"><span>SECOND</span><div class="palette" data-slot="blue"></div></div>
+          </div>
+          <div class="tab" id="tab-gear"><div id="gear-grid"></div></div>
+          <div class="tab" id="tab-emotes"><div id="emote-shop"></div></div>
+        </div>
+      </div>
+      <div class="menu-err"></div>
+      <button class="brick ghost" data-back="scr-main">BACK</button>
+    </div>
+
+    <div class="screen auth" id="scr-login">
+      <div class="auth-card">
+        <div class="auth-brand">
+          <span class="kicker">ONLINE PLAY</span>
+          <h2>WEB OF<br>BRICKS</h2>
+          <p>Sign in to host rooms, join the hub and swing with other heroes.</p>
+        </div>
+        <div class="auth-form">
+          <span class="section-label">HERO ACCOUNT</span>
+          <form id="login-form" method="post" action="#" autocomplete="on">
+            <input id="login-name" name="username" maxlength="16" placeholder="Username" autocomplete="username" spellcheck="false">
+            <input id="login-pass" name="password" type="password" maxlength="64" placeholder="Password" autocomplete="current-password">
+            <div class="row">
+              <button class="brick" id="btn-login" type="submit">LOG IN</button>
+              <button class="brick ghost" id="btn-register" type="button">SIGN UP</button>
+            </div>
+          </form>
+          <div class="menu-err"></div>
+          <button class="auth-back" data-back="scr-main">BACK TO MENU</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen" id="scr-rooms">
+      <div class="tt-head">
+        <span class="kicker">ONLINE</span>
+        <h2 class="screen-title">ROOMS</h2>
+      </div>
+
+      <div class="rooms-panel">
+        <div id="room-list"></div>
+
+        <div class="rooms-actions">
+          <button class="brick yellow" id="btn-new-room">CREATE ROOM</button>
+          <button class="brick ghost" id="btn-refresh">REFRESH</button>
+        </div>
+
+        <div class="rooms-bottom">
+          <button class="tt-item back" data-back="scr-main">
+            <span class="ti-num"></span>
+            <span class="ti-body"><span class="ti-label">Back</span></span>
+          </button>
+          <span style="display:flex;gap:8px">
+            <button class="brick ghost small" id="btn-rooms-locker">LOCKER</button>
+            <button class="brick ghost small" id="btn-logout">LOG OUT</button>
+          </span>
+        </div>
+      </div>
+      <span id="rooms-who" style="display:none"></span>
+      <span id="rooms-status" style="display:none"></span>
+    </div>
+
+    <div class="screen full" id="scr-create">
+      <div class="full-shell">
+        <div class="create-panel">
+          <header class="create-head">
+            <div class="ch-copy">
+              <span class="kicker">MULTIPLAYER</span>
+              <h2 class="screen-title">NEW ROOM</h2>
+            </div>
+            <div class="create-hint">Your room stays open while you are inside. It closes when the last hero leaves.</div>
+          </header>
+          <div class="room-kind" role="radiogroup" aria-label="Room type">
+            <button type="button" class="kind-card on" data-kind="world" role="radio" aria-checked="true">
+              <b>OPEN WORLD</b><small>The whole city. Swing, fight, race. Up to 16 heroes.</small>
+            </button>
+            <button type="button" class="kind-card" data-kind="dorm" role="radio" aria-checked="false">
+              <b>YOUR DORM</b><small>A room you decorate. Couch, big TV, hang out. Up to 5 people.</small>
+            </button>
+          </div>
+          <div class="create-grid">
+            <section class="form-block">
+              <div class="section-label">SESSION</div>
+              <label class="field"><span>ROOM NAME</span><input id="room-name" maxlength="24" placeholder="Name your room"></label>
+              <div class="field-row">
+                <label class="field"><span>MAX PLAYERS</span><input id="room-max" type="number" min="2" max="16" value="8"></label>
+                <label class="field"><span>PASSWORD</span><input id="room-pass" type="password" maxlength="32" placeholder="Empty = public"></label>
+              </div>
+              <label class="field world-only"><span>TIME OF DAY</span>
+                <select id="room-time"><option value="day">Day</option><option value="sunset">Sunset</option></select>
+              </label>
+            </section>
+            <section class="form-block">
+              <div class="section-label">RULES</div>
+              <label class="switch-row world-only">
+                <span class="sw-copy"><b>Health</b><small>Hits drain hearts. Off makes the room a sandbox.</small></span>
+                <input id="room-health" type="checkbox" checked>
+              </label>
+              <label class="switch-row world-only">
+                <span class="sw-copy"><b>Friendly fire</b><small>Heroes can hurt each other.</small></span>
+                <input id="room-pvp" type="checkbox">
+              </label>
+              <label class="switch-row">
+                <span class="sw-copy"><b>Emotes</b><small>Allow the emote wheel.</small></span>
+                <input id="room-emotes" type="checkbox" checked>
+              </label>
+              <label class="switch-row world-only">
+                <span class="sw-copy"><b>Villain waves</b><small>Enemies keep arriving in the city.</small></span>
+                <input id="room-villains" type="checkbox">
+              </label>
+            </section>
+          </div>
+          <div class="create-foot">
+            <div class="menu-err"></div>
+            <div class="row">
+              <button class="brick ghost" data-back="scr-rooms">BACK</button>
+              <button class="brick yellow" id="btn-create">CREATE ROOM</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <aside id="bugle-card" role="button" tabindex="0" aria-label="Open the Daily Bugle">
+      <div class="bugle-mast">THE DAILY BUGLE</div>
+      <div class="bugle-rule"></div>
+      <div class="bugle-head">SPIDER-MAN SPOTTED ABOVE MIDTOWN</div>
+      <div class="bugle-sub">Masked figure swings past the Bugle rooftop. Editor still unconvinced.</div>
+      <div class="bugle-foot"><span>NEW YORK EDITION</span><span>25&cent;</span></div>
+    </aside>
+
+    <div id="loading-foot" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div id="loading-bricks"></div>
+      <div id="loading-line"><span id="loading-pct">0%</span><span id="loading-msg">Loading</span></div>
+    </div>
+
+    <div id="tt-prompts">
+      <div class="tt-cluster"></div>
+      <div class="tt-cluster"><span class="tt-version">WEB OF BRICKS &middot; v0.9</span></div>
+    </div>
+  </div>
+
+  <div id="canvas-container"></div>
+
+  <div id="hud">
+    <div id="hud-player">
+      <div id="portrait"><img src="assets/ui/spidey_portrait.png" alt="Spider-Man"></div>
+      <div id="stud-block">
+        <div id="hearts" class="hearts"></div>
+        <div class="story-only" id="stud-counter"><span class="stud-icon"></span><span id="stud-count">0</span><span id="stud-pop"></span></div>
+      </div>
+    </div>
+
+    <div id="objective">
+      <span class="obj-body"><span id="objective-text"></span><span id="objective-dist"></span></span>
+    </div>
+
+    <div id="boss-bar">
+      <div id="boss-face" class="face"></div>
+      <div class="boss-info"><div id="boss-name"></div><div id="boss-hearts" class="hearts"></div></div>
+    </div>
+
+    <div id="marker"><div class="pin"><span>!</span></div><div id="marker-dist"></div></div>
+
+    <div id="minimap"><div id="minimap-dots"></div><div id="minimap-arrow"></div></div>
+
+    <div id="low-health"></div>
+    <div id="perch-reticle"><i></i></div>
+    <div id="perch-hint"></div>
+  </div>
+
+  <div id="emote-wheel">
+    <div class="emote-title">EMOTES</div>
+    <div id="emote-grid"></div>
+    <div class="emote-hint">click, or press 1-9 / 0 &nbsp; B to close</div>
+  </div>
+
+  <div id="admin">
+    <div class="admin-head" id="admin-players-head">PLAYERS <span class="admin-hint">K to close</span></div>
+    <div id="admin-players"></div>
+    <div class="admin-head" id="summon-head">SUMMON</div>
+    <div id="admin-grid"></div>
+    <div class="row admin-tools" id="admin-tools">
+      <button class="brick small wide" id="admin-portal">SPAWN PORTAL GUN</button>
+      <button class="brick small wide" id="admin-clear">CLEAR ALL</button>
+      <button class="brick small wide" id="admin-heal">HEAL ME</button>
+    </div>
+  </div>
+
+  <div id="confirm">
+    <div class="confirm-box brick-panel">
+      <div id="confirm-text">Quit to the main menu?</div>
+      <div class="confirm-sub" id="confirm-sub">Studs you collected are already saved.</div>
+      <div class="row">
+        <button class="brick small wide" id="confirm-yes">YES</button>
+        <button class="brick small wide ghost" id="confirm-no">NO</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="chat">
+    <button id="chat-toggle" title="Show or hide chat">CHAT <span id="chat-unread"></span></button>
+    <div id="chat-log"></div>
+    <input id="chat-input" maxlength="140" placeholder="say something" autocomplete="off" spellcheck="false">
+    <div id="chat-hint">press <span class="keycap">T</span> to chat</div>
+  </div>
+
+  <div id="toast"></div>
+  <div id="hurt-vignette"></div>
+  <div id="story-fade" aria-hidden="true"></div>
+  <div class="letterbox top"></div><div class="letterbox bottom"></div>
+  <div id="dialog">
+    <div id="dialog-face" class="face"></div>
+    <div id="dialog-body">
+      <div id="dialog-name"></div>
+      <div id="dialog-text"></div>
+      <div id="dialog-hint">SPACE next &nbsp; BACKSPACE skip</div>
+    </div>
+  </div>
+
+  <div id="pause-menu">
+    <div id="pause-panel">
+      <div class="pause-heading">
+        <span class="kicker">WEB OF BRICKS</span>
+        <h2 id="pause-title">Paused</h2>
+        <div id="pause-where"></div>
+      </div>
+      <nav class="tt-menu title-menu pause-menu-list" aria-label="Pause menu">
+        <button class="tt-item sel" id="pause-play"><span class="ti-num">01</span><span class="ti-body"><span class="ti-label">Resume</span><span class="ti-desc">Back to the city</span></span></button>
+        <button class="tt-item" id="pause-replay"><span class="ti-num">02</span><span class="ti-body"><span class="ti-label">Respawn</span><span class="ti-desc">Stuck? Drop back at the start point</span></span></button>
+        <button class="tt-item" id="pause-skills"><span class="ti-num">03</span><span class="ti-body"><span class="ti-label">Skill Tree</span><span class="ti-desc">Lessons earned through the story</span></span></button>
+        <button class="tt-item" id="pause-ctrl-btn"><span class="ti-num">04</span><span class="ti-body"><span class="ti-label">Controls</span><span class="ti-desc">Keys, sensitivity and map</span></span></button>
+        <button class="tt-item" id="pause-settings-btn"><span class="ti-num">05</span><span class="ti-body"><span class="ti-label">Settings</span><span class="ti-desc">Audio, interface and graphics</span></span></button>
+        <button class="tt-item" id="pause-home"><span class="ti-num">06</span><span class="ti-body"><span class="ti-label">Leave</span><span class="ti-desc">Return to the title screen</span></span></button>
+      </nav>
+      <div id="pause-controls" class="pause-sheet">
+        <div class="pause-settings">
+          <label class="slider-row">
+            <span class="sl-top"><span>MOUSE SENSITIVITY</span><output id="sens-out">1.0x</output></span>
+            <input id="sens" type="range" min="0.4" max="2.5" step="0.1" value="1" aria-label="Mouse sensitivity">
+          </label>
+          <label class="switch-row">
+            <span class="sw-copy"><b>Minimap</b></span>
+            <input id="opt-minimap" type="checkbox" checked>
+            <kbd>M</kbd>
+          </label>
+        </div>
+        <dl class="ctrl-list">
+          <dt>WASD</dt><dd>Move, run up walls</dd>
+          <dt>SHIFT</dt><dd>Sprint</dd>
+          <dt>SPACE</dt><dd>Jump, leap off walls</dd>
+          <dt>C</dt><dd>Crouch</dd>
+          <dt>E / LMB</dt><dd>Web: hold to swing</dd>
+          <dt>F</dt><dd>Punch, in air: slam</dd>
+          <dt>RMB</dt><dd>Drag to look</dd>
+          <dt>M</dt><dd>Minimap</dd>
+          <dt>B</dt><dd>Emotes</dd>
+          <dt>K</dt><dd>Summon (your room)</dd>
+          <dt>T</dt><dd>Chat</dd>
+        </dl>
+      </div>
+      <div class="pause-prompts"><span><kbd>ESC</kbd> Resume</span><span><kbd>&uarr;&darr;</kbd> Choose &nbsp; <kbd>ENTER</kbd> Select</span></div>
+    </div>
+    <section id="story-skill-tree" aria-label="Story skill tree">
+      <header class="skill-head"><div><span class="skill-kicker">PETER PARKER · STORY PROGRESSION</span><h2>What you carry forward</h2><p>Every completed chapter gives you one point. Choose the lessons that shape your Spider-Man.</p></div><div id="skill-points" aria-live="polite"></div></header>
+      <div id="skill-map" class="skill-map" aria-label="Skill paths">
+        <svg class="skill-links" viewBox="0 0 1000 450" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M500 65 C430 120 310 132 150 170 M500 65 C570 120 690 132 850 170 M150 245 L150 284 M850 245 L850 284 M150 360 C260 400 370 408 500 425 M850 360 C740 400 630 408 500 425" />
+        </svg>
+      </div>
+      <div class="skill-foot"><span>Saved on this device</span><button class="brick small ghost" id="skills-back" type="button">BACK TO PAUSE</button></div>
+    </section>
+  </div>
+
+  <script>
+    // Pause menu: live readout for mouse sensitivity (the control itself is wired in main.js)
+    (() => {
+      const slider = document.getElementById('sens');
+      const out = document.getElementById('sens-out');
+      if (!slider || !out) return;
+      const paint = () => {
+        out.textContent = `${(+slider.value).toFixed(1)}x`;
+        const min = +slider.min, max = +slider.max;
+        slider.style.setProperty('--fill', `${((+slider.value - min) / (max - min)) * 100}%`);
+      };
+      try {
+        const saved = parseFloat(localStorage.getItem('sens') ?? '');
+        if (Number.isFinite(saved)) slider.value = saved;
+      } catch {}
+      slider.addEventListener('input', paint);
+      paint();
+      document.querySelectorAll('.set-row input[type="range"]').forEach((r) => {
+        const fill = () => {
+          const min = +r.min, max = +r.max;
+          r.style.setProperty('--fill', `${((+r.value - min) / (max - min)) * 100}%`);
+        };
+        r.addEventListener('input', fill);
+        fill();
+      });
+    })();
+  </script>
+
+  <script>
+    // ── First-entry legal gate ───────────────────────────────────────────────
+    // Shown until the player acknowledges the notice; the acknowledgement is stored locally
+    // (bump ACK to re-show it after the wording changes).
+    (() => {
+      const ACK = 'legalAckV2';
+      const gate = document.getElementById('legal-gate');
+      const accept = document.getElementById('legal-accept');
+      const decline = document.getElementById('legal-decline');
+      const openBtn = document.getElementById('legal-open');
+      if (!gate) return;
+      let acked = false;
+      try { acked = localStorage.getItem(ACK) === 'yes'; } catch {}
+      const show = () => {
+        gate.classList.add('show');
+        document.activeElement?.blur?.();
+        accept?.focus?.();
+      };
+      const hide = () => gate.classList.remove('show');
+      if (!acked) show();
+      accept?.addEventListener('click', () => {
+        try { localStorage.setItem(ACK, 'yes'); } catch {}
+        hide();
+      });
+      decline?.addEventListener('click', () => {
+        // No acknowledgement, no game: render a stylized TT Games paused brick plaque
+        hide();
+        document.body.innerHTML = `
+          <div style="display:grid;place-items:center;height:100vh;background:radial-gradient(circle at 50% 40%,#182335,#070a10);color:#fff;font-family:'Fredoka',sans-serif;padding:24px;text-align:center;">
+            <div style="max-width:460px;background:linear-gradient(180deg,#18202d,#0f141e);border:3.5px solid #06080d;border-radius:14px;padding:32px 24px 26px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 16px 40px rgba(0,0,0,0.85);">
+              <div style="font-family:'Lilita One',sans-serif;font-size:26px;letter-spacing:0.06em;color:#ffe28a;text-shadow:0 2px 0 #5c080d,0 4px 0 #06080d;margin-bottom:12px;text-transform:uppercase;">GAME PAUSED</div>
+              <p style="font-size:14px;line-height:1.6;color:#cbd5e1;margin-bottom:24px;">To experience <b>LEGO Spider-Man: Web of Bricks</b>, the community fan project notice must be acknowledged.</p>
+              <button onclick="location.reload()" style="font-family:'Lilita One',sans-serif;font-size:16px;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;padding:12px 28px 11px;border-radius:8px;border:2.5px solid #06080d;background:linear-gradient(180deg,#ffe28a,#f5c518);color:#1a1200;box-shadow:inset 0 2px 0 #fff,inset 0 -3px 0 #a87900,0 4px 0 #06080d;">RELOAD GAME</button>
+            </div>
+          </div>`;
+      });
+      openBtn?.addEventListener('click', show);
+      window.openLegalNotice = show;
+
+      // Console & keyboard support: Enter accepts, Escape declines
+      window.addEventListener('keydown', (e) => {
+        if (!gate.classList.contains('show')) return;
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          accept?.click();
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          decline?.click();
+        }
+      });
+    })();
+  </script>
+
+  <script>
+    // Slow tunnels sometimes drop a download and the game sits on a black screen forever.
+    // Any asset request with no response in 25 s, or that fails, is retried (up to 4 tries).
+    (() => {
+      const real = window.fetch.bind(window);
+      window.fetch = async (input, init = {}) => {
+        const url = typeof input === 'string' ? input : input?.url ?? '';
+        if (!/assets\/|\.(js|mtl|obj|glb|png|jpg|json)(\?|$)/.test(url) || init.signal) return real(input, init);
+        for (let tryN = 1; ; tryN++) {
+          const ac = new AbortController();
+          const t = setTimeout(() => ac.abort(), 25000 * tryN);
+          try {
+            const r = await real(input, { ...init, signal: ac.signal });
+            clearTimeout(t);
+            if (r.status >= 500 && tryN < 4) continue;
+            return r;
+          } catch (e) {
+            clearTimeout(t);
+            if (tryN >= 4) throw e;
+            await new Promise(r => setTimeout(r, 600 * tryN));
+          }
+        }
+      };
+    })();
+    // Watchdog: if loading shows no progress for 45 s, reload once (cached files make the retry fast)
+    (() => {
+      let last = '', still = 0, lastRes = 0;
+      const iv = setInterval(() => {
+        const ls = document.getElementById('loading-screen');
+        if (!ls || ls.hidden || getComputedStyle(ls).display === 'none' || getComputedStyle(ls).opacity === '0') { clearInterval(iv); return; }
+        const now = document.getElementById('loading-pct')?.textContent ?? '';
+        if (now === '100%' || window.__userActed) { clearInterval(iv); return; }
+        const res = performance.getEntriesByType('resource').length;
+        still = now === last && res === lastRes ? still + 5 : 0; last = now; lastRes = res;
+        if (still >= 75) {
+          clearInterval(iv);
+          let n = 0; try { n = +sessionStorage.getItem('reloadTries') || 0; sessionStorage.setItem('reloadTries', n + 1); } catch (e) {}
+          if (n < 2) location.reload();
+        }
+      }, 5000);
+      for (const ev of ['pointerdown', 'keydown']) addEventListener(ev, () => { window.__userActed = true; }, { once: true });
+      addEventListener('load', () => setTimeout(() => { try { sessionStorage.removeItem('reloadTries'); } catch (e) {} }, 60000));
+    })();
+  </script>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/",
+      "three-mesh-bvh": "https://cdn.jsdelivr.net/npm/three-mesh-bvh@0.8.3/build/index.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="src/main.js?v=645"></script>
+</body>
+</html>

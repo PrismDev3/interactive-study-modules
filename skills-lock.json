@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "skills": {
+    "<skill-name>": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "templates/SKILL.md",
+      "computedHash": "3a6c22f6399bc7758b8789df5600301d7f72855bf113bb9c2c9d6ee1c29ea8fc"
+    },
+    "accessibility": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/accessibility/SKILL.md",
+      "computedHash": "325a2c23fc471037f0477759d09634b9d363b4fb9258756c4f3b0d59cb85e66a"
+    },
+    "angular": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/angular/SKILL.md",
+      "computedHash": "6650c8d37bd6945c4d561c8c414ddbc956b5e33d44f5d383610102ddfbba29e3"
+    },
+    "architecture-and-design": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/architecture-and-design/SKILL.md",
+      "computedHash": "53a1f96c6657da586c01b8421e32ee2d65979874f6a99401392b672b0127cc29"
+    },
+    "component-api-design": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/component-api-design/SKILL.md",
+      "computedHash": "c332ccd7adfed0768d7a31feeb932e548ceae7426349fe3f0c041dfc127a8e45"
+    },
+    "core-typescript": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/core-typescript/SKILL.md",
+      "computedHash": "c79953c37b5b842dd7f801c3a8b22eadf865568a0cf5c537155bde3207ac2ec3"
+    },
+    "e2e-testing": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/e2e-testing/SKILL.md",
+      "computedHash": "36f4b49f84f3839f1e224aaf272413597465fc992ededde3d673d58252862e1e"
+    },
+    "frontend-code-review": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-code-review/SKILL.md",
+      "computedHash": "c5b89cd7b0d975770a017e42033fd366dc54db6090a7ca1fb093d9faa99589d7"
+    },
+    "i18n-and-localization": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/i18n-and-localization/SKILL.md",
+      "computedHash": "6d2101f6599fad167a7d14566c02145d9cc55f5abd8b16a925f5ced2749349ac"
+    },
+    "react": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react/SKILL.md",
+      "computedHash": "df70951ac7793e3c0ced6e138102b3f802bc2db971394f193a16467f600e5f8b"
+    },
+    "styling-and-design-tokens": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/styling-and-design-tokens/SKILL.md",
+      "computedHash": "d6460ef46daafbc35a946f1322bbbc2ebc1f7e8337ec71d04c6d3a4c9dd1cb14"
+    },
+    "test-quality": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/test-quality/SKILL.md",
+      "computedHash": "4b3fc07554fc98ef1334a225d409664da31ef2e0db6618c151c1587a17612f06"
+    },
+    "vue": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/vue/SKILL.md",
+      "computedHash": "43da0e99b74d875fd15a791a9cd796e12abd57461f11250835605aa8da7590f6"
+    },
+    "web-performance": {
+      "source": "danielteles/awesome-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-performance/SKILL.md",
+      "computedHash": "55f139e8197381451868c4a4d41769b249470e3432bf8d9ae672fd219a954d84"
+    }
+  }
+}

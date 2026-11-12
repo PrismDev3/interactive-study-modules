@@ -1,0 +1,26 @@
+# ─── Dependencies (reinstallable) ───────────────────────────────────────────
+node_modules/
+
+# ─── Private: real accounts, DMs, uploads — NEVER publish ────────────────────
+server/data/
+server/logs/
+server/**/users.json
+server/**/dms.json
+
+# ─── Oversized binaries (GitHub hard-rejects files over 100 MB) ──────────────
+My Main Game.nds
+assets/models/city_map.full.obj
+
+# ─── Ephemeral / local-only ──────────────────────────────────────────────────
+*.log
+*.bak
+tools/tunnel.log
+tools/keep-alive.log
+tools/tunnel-url.txt
+.cloudflared-quick.yml
+tunnel-empty.yml
+
+# ─── Editor / OS cruft ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.tmp

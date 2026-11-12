@@ -1,0 +1,3 @@
+{ "note": "Local QA accounts for testing the social system (localhost only).",
+  "browser": { "name": "qa_tester1", "pass": "qa-local-123" },
+  "bot": { "name": "qa_buddy", "pass": "qa-local-123" } }

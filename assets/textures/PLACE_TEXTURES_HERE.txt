@@ -1,0 +1,16 @@
+Drop your PBR texture maps here with these exact filenames:
+
+  albedo.png     — Base color / diffuse (sRGB)
+  normal.png     — Tangent-space normal map (Linear)
+  roughness.png  — Roughness in R channel (Linear)
+  metallic.png   — Metalness in R channel (Linear)
+
+If you use a combined ORM (Occlusion-Roughness-Metalness) texture,
+split the channels or update the material in src/SuitMaterial.js.
+
+For the hero suit specifically:
+  - Red/blue base color drives most of the look from albedo.png
+  - roughness ~0.5 on the fabric, ~0.2 on the lenses
+  - metalness ~0.0 on fabric, ~0.3 on web-shooters
+  - The hex web pattern is procedurally generated on top of your albedo
+    so a plain red/blue texture is enough to get the look working.
