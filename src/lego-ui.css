@@ -361,7 +361,7 @@ body:not(.story) #objective { top: 120px; }
 #marker-dist { font-family: var(--font-display); font-size: 15px; text-shadow: var(--outline); }
 
 /* Minimap: thick brick frame */
-#minimap { position: absolute; right: 16px; bottom: 16px; width: 184px; height: 184px; display: none; overflow: hidden;
+#minimap { position: absolute; left: 16px; bottom: 16px; width: 184px; height: 184px; display: none; overflow: hidden;
   border: 5px solid var(--brick-outline); border-radius: 50%; outline: 4px solid var(--brick-dark-blue); outline-offset: -9px;
   box-shadow: 0 6px 0 var(--brick-outline), 0 10px 0 var(--brick-shadow); }
 #minimap.show { display: block; }
@@ -2615,3 +2615,78 @@ body.dorm #sflix-bar.show { display: flex; }
 #sflix-tv-fs { position: relative; }
 #sflix-tv-fs video { flex: 1; width: 100%; object-fit: contain; }
 #sflix-tv-fs .sflix-th-close { position: absolute; top: 10px; right: 16px; }
+
+/* ── Boot screen on phones: compact, no overlap ── */
+@media (max-height: 520px), (max-width: 600px) {
+  #boot-screen { justify-content: space-between; padding: calc(14px + env(safe-area-inset-top)) 16px calc(14px + env(safe-area-inset-bottom)); }
+  #boot-screen .boot-center { margin: auto 0 0; }
+  #boot-screen .boot-spidey { width: clamp(64px, 18vmin, 96px); border-width: 3px; box-shadow: 0 0 0 3px #1d3f9a, 0 6px 18px rgba(0,0,0,.6); }
+  #boot-screen .boot-title { margin-top: 10px; font-size: clamp(28px, 9vmin, 44px); text-shadow: 0 3px 0 #8e1016; }
+  #boot-screen .boot-sub { margin-top: 4px; font-size: 11px; letter-spacing: .32em; }
+  #boot-screen .boot-bottom { position: relative; left: auto; bottom: auto; transform: none; margin: 14px auto auto; width: min(460px, 100%); }
+  #boot-screen .boot-row { font-size: 12px; margin-bottom: 5px; }
+  #boot-pct { font-size: 15px; }
+  #boot-screen .boot-bar { height: 12px; border-width: 2px; }
+  #boot-tip { margin-top: 8px; font-size: 12px; }
+}
+
+/* ── Landscape phones: keep small panels narrow instead of full width ── */
+@media (max-height: 520px) and (orientation: landscape) {
+  #scr-name { width: min(440px, calc(100vw - 32px)); margin: 0 auto; }
+  #scr-name .menu-head { font-size: 26px; }
+  #scr-name .set-note { font-size: 11px; }
+  #loading-foot { bottom: 40px !important; }
+}
+
+/* ── Landscape phones: every menu fits or scrolls; compact title menu (PC untouched) ── */
+@media (max-height: 520px) and (orientation: landscape) {
+  #loading-screen .screen.show { max-height: 100dvh; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+  #loading-screen .screen.panel.show { max-height: calc(100dvh - 16px); margin: 8px auto; box-sizing: border-box; }
+  #loading-screen:has(.screen.show) #loading-foot { display: none; }
+  #scr-main .title-menu { bottom: calc(40px + env(safe-area-inset-bottom)) !important; }
+  .title-menu { left: calc(16px + env(safe-area-inset-left)); right: auto; width: min(340px, 46vw); top: auto;
+    bottom: calc(10px + env(safe-area-inset-bottom)); gap: 0; }
+  .title-menu .tt-item { min-height: 0; padding: 5px 10px; grid-template-columns: 18px 1fr; gap: 6px; }
+  .ti-label { font-size: 18px; }
+  .ti-desc { display: none; }
+  #wordmark { transform: scale(.72); transform-origin: top left; }
+  #scr-create, #scr-chapters, #scr-login, #scr-rooms { padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
+  .create-foot { position: sticky; bottom: 0; background: rgba(9,13,20,.92); padding: 8px 0; z-index: 3; }
+  #suit-preview { max-height: 46dvh; width: auto; aspect-ratio: 3 / 4; }
+  .screen.panel .menu-head, .screen-title { font-size: 24px; }
+  #scr-single .title-menu, #scr-rooms .rooms-panel { width: min(520px, 100%); }
+}
+
+/* ── Mobile pass 2026-11-12: keep the title visible on landscape phones ── */
+@media (max-height: 500px) and (orientation: landscape) {
+  #loading-screen:has(#scr-main.show) #wordmark { display: grid; transform: none; left: calc(14px + env(safe-area-inset-left)); top: calc(8px + env(safe-area-inset-top)); }
+  #wordmark .wm-badge { width: 32px; font-size: 12px; }
+  #wordmark .wm-l { font-size: 30px; }
+  #wordmark .wm-sub { font-size: 9px; margin-top: 2px; }
+}
+
+/* Mobile: LEGAL badge only on the title screen, so it never covers BACK / CREATE buttons */
+@media (max-width: 960px), (max-height: 500px) {
+  body:has(#loading-screen .screen.show:not(#scr-main)) #legal-open,
+  #loading-screen:has(.screen.show:not(#scr-main)) #loading-foot { display: none !important; }
+}
+
+/* Landscape phones: locker = preview left, tabs + list right, all on screen */
+@media (max-height: 500px) and (orientation: landscape) {
+  #scr-suit { padding: calc(8px + env(safe-area-inset-top)) calc(12px + env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) calc(12px + env(safe-area-inset-left)); }
+  #scr-suit .menu-head { font-size: 22px; margin: 0; }
+  #suit-row { flex-direction: row; flex-wrap: nowrap; align-items: stretch; gap: 12px; height: calc(100dvh - 110px); min-height: 0; }
+  #suit-preview { flex: 0 0 auto; height: 100%; max-height: none; width: auto; aspect-ratio: 3 / 4; }
+  #locker-side { flex: 1 1 auto; width: auto; min-width: 0; display: flex; flex-direction: column; min-height: 0; }
+  #locker-tabs { flex: 0 0 auto; }
+  #locker-tabs button { flex: 1; height: 34px; }
+  #locker-side .tab.on { flex: 1 1 auto; max-height: none; min-height: 0; overflow-y: auto; }
+  #scr-suit > .brick { height: 34px; flex: 0 0 auto; }
+}
+
+/* Portrait phones: locker list uses the full width */
+@media (max-width: 600px) and (orientation: portrait) {
+  #locker-side { width: 100%; align-self: stretch; }
+  #locker-tabs button { flex: 1; }
+  #suit-grid, #suit-grid-heroes, #gear-grid, #emote-shop { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
+}

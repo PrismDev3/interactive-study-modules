@@ -1,4 +1,4 @@
-# PROJECT_STATE (keep under 40 lines; overwrite, don't append)
+﻿# PROJECT_STATE (keep under 40 lines; overwrite, don't append)
 
 Updated: 2026-11-12 (audio overhaul)
 
@@ -8,13 +8,13 @@ Updated: 2026-11-12 (audio overhaul)
 - Audio overhaul (2026-11-12): new `src/AudioCore.js` = one AudioContext + mixer (master -> limiter; sfx/ui/music(duck)/amb buses), settings masterVol/uiVol/mute (+ existing sfxVol/musicVol/ambVol/music) apply live and persist; suspends when tab hidden. `Sfx.js` rewritten on it: priorities + 22-voice budget, cooldowns (per-source `key` for remote players), 3D pan/fade, pitch/level variation, variants for thwip/melee/hit; new sounds stud (pentatonic streak), milestone (every 25k studs), combo, brick scatter (every shatter), zip, wallrun, mission/complete/fail/objective/unlock/secret, countdown/go/join/leave/elim, open/close/tab/slider; `setMotion` = speed wind loop. `Music.js` is adaptive: main.js feeds `soundtrack.setState({energy, combat, boss})`, layers (drums/hook/peak/boss stabs) latch per bar, `resolve()` after missions, calm when nobody drives it. Hooks: LegoHud studs + pause open/close, Combat combo/shatter/death/zip/wallrun/wind, Story mission start/complete, Multiplayer remote thwip/release/land/attack from replicated state + join/leave, Race countdown/GO/win, Outfit.buy + chapter unlock. `window.gameSfx` / `window.gameMusic` globals. Verified in browser: every sound plays with no errors, 400-sound burst capped (14 voices, 0.3 ms), Gauntlet: combat+boss layers engage, wind rises in air, studs/combo fire, mute/master persist, menu settings rows show. NOT verified: how it sounds (no listening), pause-sheet sliders, multiplayer with 2 clients, real FPS. Backups `%TEMP%\*.pre-audio.js`.
 - Active task: none. Everything below loaded in the browser with no console errors.
 - Verified (desktop, localhost; frames stepped by hand with `__profile`, so real FPS is NOT measured):
-  - Baked-city IndexedDB cache (`SceneSetup.js` `readCityBake`/`writeCityBake`; key = OBJ v + module `?v=`; `?nocitycache` bypasses): cold 11,672 ms → warm 877 ms, identical geometry fingerprint. Cold runs varied 3.4–12.2 s.
-  - High tier, spawn street: ~51 → ~21 ms CPU/frame, 3.5 M → 1.2 M triangles. Low tier: 3.6 ms CPU/frame, 444 calls.
+  - Baked-city IndexedDB cache (`SceneSetup.js` `readCityBake`/`writeCityBake`; key = OBJ v + module `?v=`; `?nocitycache` bypasses): cold 11,672 ms â†’ warm 877 ms, identical geometry fingerprint. Cold runs varied 3.4â€“12.2 s.
+  - High tier, spawn street: ~51 â†’ ~21 ms CPU/frame, 3.5 M â†’ 1.2 M triangles. Low tier: 3.6 ms CPU/frame, 444 calls.
   - Roof studs in 60 m culled cells with near/far LOD; `StaticMerge.js` on ferries, booths, street sets; civilians frustum-culled with distance-based animation/shadows; minimap skips shadows and studs.
   - Locker: preview-rig LRU, lazy gear thumbnails on one reused rig (11 in 951 ms, longest stall 74 ms; no "before"), readable tiles (css tail block).
-  - Swing bench (fixed to press E on the edge): 6 runs × 8 s, 3–4 swings each, 186–198 m, 0 wall hits. Web strand starts at the hand.
-  - Memory, low tier, ~750 frames + 48 s of swinging: heap 168 → 177 MB, textures flat (377), geometries 888 → 927.
-- Vehicles (later 2026-11-11 session): `CityLife.js` `legoCarGeometry(color, kind)` + `CAR_FLEET` — six original brick-built kinds (sedan, taxi, police, van, pickup, sports), same 1.95 × 4.3 footprint, 704–892 tris each (was one sedan shape). Seen in a test render only; street/bridge traffic not driven in-game. No extracted LEGO Marvel vehicle models imported. Backup: `%TEMP%\CityLife.pre-vehicles.js`.
+  - Swing bench (fixed to press E on the edge): 6 runs Ã— 8 s, 3â€“4 swings each, 186â€“198 m, 0 wall hits. Web strand starts at the hand.
+  - Memory, low tier, ~750 frames + 48 s of swinging: heap 168 â†’ 177 MB, textures flat (377), geometries 888 â†’ 927.
+- Vehicles (later 2026-11-11 session): `CityLife.js` `legoCarGeometry(color, kind)` + `CAR_FLEET` â€” six original brick-built kinds (sedan, taxi, police, van, pickup, sports), same 1.95 Ã— 4.3 footprint, 704â€“892 tris each (was one sedan shape). Seen in a test render only; street/bridge traffic not driven in-game. No extracted LEGO Marvel vehicle models imported. Backup: `%TEMP%\CityLife.pre-vehicles.js`.
 - Imported vehicles (2026-11-11, later): `src/Vehicles.js` loads GENERICCAR + GOONSSPEEDBOAT GLBs (copied from `My Lego Game Files/models/vehicles/data` to `assets/models/vehicles/`), repaints white vertices per fleet colour, glass tinted blue. Street + bridge traffic swap to it after load (brick cars stay as fallback). 9 speedboats circle open water with 4-point wave buoyancy; ferries use the same buoyancy; the sea shader gets rolling wave normals + crest tint (`addWaterWaves`). `src/Driving.js`: H enters/exits the nearest street car, WASD/arrows + Space handbrake. Checked in browser: no console errors, enter + drive + camera follow work. Not checked: boats/waves visually, driving feel at real FPS, exit placement.
 - Already present before this session (seen, not re-tested): Skill Tree / Skill Select room toggles (`PlayerRoom.js`, `PauseSettings.js`, server `prefs`), server-side stud gifting.
 
@@ -61,7 +61,7 @@ Updated: 2026-11-12 (audio overhaul)
 - Cage arena lag: `_buildCage` added a PointLight (18 shader recompiles, ~6.1 s freeze on entry) and the city stayed drawn behind the closed hall 240 m up. Now emissive lamp panels instead of the light, and `SceneSetup.farCap` (set by Story while the cage exists) limits draw distance to 59 m. Measured: entry 6,140 -> 28 ms, frame 24.5 -> 7.0 ms (render 23.2 -> 5.3). Backup `%TEMP%\SceneSetup.pre-cage.js`.
 
 ## Blockers / caveats
-- No Chromebook measurement; no two-account gift test; room enter/leave ×10 memory audit not run.
+- No Chromebook measurement; no two-account gift test; room enter/leave Ã—10 memory audit not run.
 - 2026-11-11 batch from another session (web hand, day/night, ferries, gunmen, cage arena, Doc Ock kit) is still not play-tested.
 - No git. Pre-session copies of most edited files: `%TEMP%\*.pre-session.*`.
 - Scope: no new LEGO Marvel Super Heroes assets imported, no locations rebuilt from its screenshots.
@@ -70,7 +70,7 @@ Updated: 2026-11-12 (audio overhaul)
 0. Roof studs are 2.0 M of 3.9 M triangles in view (66.8k far studs x 18 tris, 28k near x 30). Try a lower STUD_RANGE (LegoCity.js:945, now 230) or a cheaper far stud; measure with gl.finish A/B. Main render ~14 ms at 1024x768; shadow update ~2 ms; bloom ~0.
 1. Chromebook FPS on `gfx=low`; two-account stud-gift test (BACKLOG 0b).
 2. (done: civilian merge) Next draw-call source: profile what else makes up the ~1,000 calls.
-3. Room enter/leave ×10 memory audit (combat wave leak fixed; check story/ally removal and CityLife).
+3. Room enter/leave Ã—10 memory audit (combat wave leak fixed; check story/ally removal and CityLife).
 4. BACKLOG #3 combat feel; enterable Daily Bugle lobby.
 
 ## Files touched this session
@@ -81,4 +81,4 @@ SceneSetup.js, LegoCity.js, main.js, Minimap.js, CityLife.js, Ferries.js, Change
 
 - 2026-11-11: Full-screen boot overlay (#boot-screen in index.html, bootShow() in main.js, CSS at end of lego-ui.css) covers the title until the city loads and again while entering the city after Play.
 
-- Hosting: `tools/keep-alive.ps1` (run detached) keeps `server/server.js` on :8080 and a Cloudflare quick tunnel alive, blocks idle sleep; current public URL in `tools/tunnel-url.txt`, log `tools/keep-alive.log`. Quick tunnel URL changes only if cloudflared itself restarts.
+- Hosting: public URL is fixed: https://lswob.lootline.xyz (named tunnel `lswob`, config `~/.cloudflared/lswob-config.yml`). `tools/keep-alive.ps1` keeps `server/server.js` on :8080 and that tunnel alive, blocks idle sleep; auto-starts at login via Startup `WebOfBricksKeeper.vbs`. Log `tools/keep-alive.log`.

