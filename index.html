@@ -8,6 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="format-detection" content="telephone=no" />
+  <script>(function(){var t=0;document.addEventListener("touchend",function(e){var n=Date.now();if(n-t<350&&!(e.target.closest&&e.target.closest("input,textarea,select"))){e.preventDefault();}t=n;},{passive:false});["gesturestart","gesturechange","gestureend"].forEach(function(g){document.addEventListener(g,function(e){e.preventDefault();},{passive:false});});document.addEventListener("dblclick",function(e){e.preventDefault();},{passive:false});})();</script>
   <script>
     // Touch layout from the first paint, so the HUD and controls never flash as desktop UI.
     if ((matchMedia('(pointer: coarse)').matches && matchMedia('(hover: none)').matches)
@@ -247,7 +248,7 @@
       .legal-actions button { flex: 1 1 auto; }
     }
   </style>
-  <link rel="stylesheet" href="src/lego-ui.css?v=133">
+  <link rel="stylesheet" href="src/lego-ui.css?v=136">
   <link rel="stylesheet" href="src/social.css?v=17">
 </head>
 <body>
@@ -923,6 +924,6 @@
     }
   }
   </script>
-  <script type="module" src="src/main.js?v=645"></script>
+  <script type="module" src="src/main.js?v=646"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
   "repo": "PrismDev3/interactive-study-modules",
   "branch": "main",
   "base": "https://lswob.lootline.xyz",
-  "count": 300,
+  "count": 1000,
   "files": [
     {
       "slug": "cell-structure-study-guide",
@@ -1503,6 +1503,3506 @@
       "slug": "chemical-bonds-flashcards",
       "title": "Chemical Bonds — Flashcards",
       "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-flashcards.svg"
+    },
+    {
+      "slug": "chemical-bonds-module",
+      "title": "Chemical Bonds — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-module.svg"
+    },
+    {
+      "slug": "chemical-bonds-lesson",
+      "title": "Chemical Bonds — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-lesson.svg"
+    },
+    {
+      "slug": "chemical-bonds-summary",
+      "title": "Chemical Bonds — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-summary.svg"
+    },
+    {
+      "slug": "chemical-bonds-chart",
+      "title": "Chemical Bonds — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-chart.svg"
+    },
+    {
+      "slug": "chemical-bonds-overview",
+      "title": "Chemical Bonds — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-overview.svg"
+    },
+    {
+      "slug": "chemical-bonds-lab",
+      "title": "Chemical Bonds — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-lab.svg"
+    },
+    {
+      "slug": "chemical-bonds-unit-test-prep",
+      "title": "Chemical Bonds — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-unit-test-prep.svg"
+    },
+    {
+      "slug": "chemical-bonds-key-terms",
+      "title": "Chemical Bonds — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemical-bonds-key-terms.svg"
+    },
+    {
+      "slug": "kinematics-study-guide",
+      "title": "Kinematics — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-study-guide.svg"
+    },
+    {
+      "slug": "kinematics-diagram",
+      "title": "Kinematics — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-diagram.svg"
+    },
+    {
+      "slug": "kinematics-notes",
+      "title": "Kinematics — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-notes.svg"
+    },
+    {
+      "slug": "kinematics-worksheet",
+      "title": "Kinematics — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-worksheet.svg"
+    },
+    {
+      "slug": "kinematics-review",
+      "title": "Kinematics — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-review.svg"
+    },
+    {
+      "slug": "kinematics-flashcards",
+      "title": "Kinematics — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-flashcards.svg"
+    },
+    {
+      "slug": "kinematics-module",
+      "title": "Kinematics — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-module.svg"
+    },
+    {
+      "slug": "kinematics-lesson",
+      "title": "Kinematics — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-lesson.svg"
+    },
+    {
+      "slug": "kinematics-summary",
+      "title": "Kinematics — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-summary.svg"
+    },
+    {
+      "slug": "kinematics-chart",
+      "title": "Kinematics — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-chart.svg"
+    },
+    {
+      "slug": "kinematics-overview",
+      "title": "Kinematics — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-overview.svg"
+    },
+    {
+      "slug": "kinematics-lab",
+      "title": "Kinematics — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-lab.svg"
+    },
+    {
+      "slug": "kinematics-unit-test-prep",
+      "title": "Kinematics — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-unit-test-prep.svg"
+    },
+    {
+      "slug": "kinematics-key-terms",
+      "title": "Kinematics — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/kinematics-key-terms.svg"
+    },
+    {
+      "slug": "linear-functions-study-guide",
+      "title": "Linear Functions — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-study-guide.svg"
+    },
+    {
+      "slug": "linear-functions-diagram",
+      "title": "Linear Functions — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-diagram.svg"
+    },
+    {
+      "slug": "linear-functions-notes",
+      "title": "Linear Functions — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-notes.svg"
+    },
+    {
+      "slug": "linear-functions-worksheet",
+      "title": "Linear Functions — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-worksheet.svg"
+    },
+    {
+      "slug": "linear-functions-review",
+      "title": "Linear Functions — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-review.svg"
+    },
+    {
+      "slug": "linear-functions-flashcards",
+      "title": "Linear Functions — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-flashcards.svg"
+    },
+    {
+      "slug": "linear-functions-module",
+      "title": "Linear Functions — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-module.svg"
+    },
+    {
+      "slug": "linear-functions-lesson",
+      "title": "Linear Functions — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-lesson.svg"
+    },
+    {
+      "slug": "linear-functions-summary",
+      "title": "Linear Functions — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-summary.svg"
+    },
+    {
+      "slug": "linear-functions-chart",
+      "title": "Linear Functions — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-chart.svg"
+    },
+    {
+      "slug": "linear-functions-overview",
+      "title": "Linear Functions — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-overview.svg"
+    },
+    {
+      "slug": "linear-functions-lab",
+      "title": "Linear Functions — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-lab.svg"
+    },
+    {
+      "slug": "linear-functions-unit-test-prep",
+      "title": "Linear Functions — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-unit-test-prep.svg"
+    },
+    {
+      "slug": "linear-functions-key-terms",
+      "title": "Linear Functions — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/linear-functions-key-terms.svg"
+    },
+    {
+      "slug": "the-cold-war-study-guide",
+      "title": "The Cold War — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-study-guide.svg"
+    },
+    {
+      "slug": "the-cold-war-diagram",
+      "title": "The Cold War — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-diagram.svg"
+    },
+    {
+      "slug": "the-cold-war-notes",
+      "title": "The Cold War — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-notes.svg"
+    },
+    {
+      "slug": "the-cold-war-worksheet",
+      "title": "The Cold War — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-worksheet.svg"
+    },
+    {
+      "slug": "the-cold-war-review",
+      "title": "The Cold War — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-review.svg"
+    },
+    {
+      "slug": "the-cold-war-flashcards",
+      "title": "The Cold War — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-flashcards.svg"
+    },
+    {
+      "slug": "the-cold-war-module",
+      "title": "The Cold War — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-module.svg"
+    },
+    {
+      "slug": "the-cold-war-lesson",
+      "title": "The Cold War — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-lesson.svg"
+    },
+    {
+      "slug": "the-cold-war-summary",
+      "title": "The Cold War — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-summary.svg"
+    },
+    {
+      "slug": "the-cold-war-chart",
+      "title": "The Cold War — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-chart.svg"
+    },
+    {
+      "slug": "the-cold-war-overview",
+      "title": "The Cold War — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-overview.svg"
+    },
+    {
+      "slug": "the-cold-war-lab",
+      "title": "The Cold War — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-lab.svg"
+    },
+    {
+      "slug": "the-cold-war-unit-test-prep",
+      "title": "The Cold War — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-unit-test-prep.svg"
+    },
+    {
+      "slug": "the-cold-war-key-terms",
+      "title": "The Cold War — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/the-cold-war-key-terms.svg"
+    },
+    {
+      "slug": "climate-zones-study-guide",
+      "title": "Climate Zones — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-study-guide.svg"
+    },
+    {
+      "slug": "climate-zones-diagram",
+      "title": "Climate Zones — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-diagram.svg"
+    },
+    {
+      "slug": "climate-zones-notes",
+      "title": "Climate Zones — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-notes.svg"
+    },
+    {
+      "slug": "climate-zones-worksheet",
+      "title": "Climate Zones — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-worksheet.svg"
+    },
+    {
+      "slug": "climate-zones-review",
+      "title": "Climate Zones — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-review.svg"
+    },
+    {
+      "slug": "climate-zones-flashcards",
+      "title": "Climate Zones — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-flashcards.svg"
+    },
+    {
+      "slug": "climate-zones-module",
+      "title": "Climate Zones — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-module.svg"
+    },
+    {
+      "slug": "climate-zones-lesson",
+      "title": "Climate Zones — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-lesson.svg"
+    },
+    {
+      "slug": "climate-zones-summary",
+      "title": "Climate Zones — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-summary.svg"
+    },
+    {
+      "slug": "climate-zones-chart",
+      "title": "Climate Zones — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-chart.svg"
+    },
+    {
+      "slug": "climate-zones-overview",
+      "title": "Climate Zones — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-overview.svg"
+    },
+    {
+      "slug": "climate-zones-lab",
+      "title": "Climate Zones — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-lab.svg"
+    },
+    {
+      "slug": "climate-zones-unit-test-prep",
+      "title": "Climate Zones — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-unit-test-prep.svg"
+    },
+    {
+      "slug": "climate-zones-key-terms",
+      "title": "Climate Zones — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/climate-zones-key-terms.svg"
+    },
+    {
+      "slug": "market-structures-study-guide",
+      "title": "Market Structures — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-study-guide.svg"
+    },
+    {
+      "slug": "market-structures-diagram",
+      "title": "Market Structures — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-diagram.svg"
+    },
+    {
+      "slug": "market-structures-notes",
+      "title": "Market Structures — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-notes.svg"
+    },
+    {
+      "slug": "market-structures-worksheet",
+      "title": "Market Structures — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-worksheet.svg"
+    },
+    {
+      "slug": "market-structures-review",
+      "title": "Market Structures — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-review.svg"
+    },
+    {
+      "slug": "market-structures-flashcards",
+      "title": "Market Structures — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-flashcards.svg"
+    },
+    {
+      "slug": "market-structures-module",
+      "title": "Market Structures — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-module.svg"
+    },
+    {
+      "slug": "market-structures-lesson",
+      "title": "Market Structures — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-lesson.svg"
+    },
+    {
+      "slug": "market-structures-summary",
+      "title": "Market Structures — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-summary.svg"
+    },
+    {
+      "slug": "market-structures-chart",
+      "title": "Market Structures — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-chart.svg"
+    },
+    {
+      "slug": "market-structures-overview",
+      "title": "Market Structures — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-overview.svg"
+    },
+    {
+      "slug": "market-structures-lab",
+      "title": "Market Structures — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-lab.svg"
+    },
+    {
+      "slug": "market-structures-unit-test-prep",
+      "title": "Market Structures — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-unit-test-prep.svg"
+    },
+    {
+      "slug": "market-structures-key-terms",
+      "title": "Market Structures — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/market-structures-key-terms.svg"
+    },
+    {
+      "slug": "star-life-cycle-study-guide",
+      "title": "Star Life Cycle — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-study-guide.svg"
+    },
+    {
+      "slug": "star-life-cycle-diagram",
+      "title": "Star Life Cycle — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-diagram.svg"
+    },
+    {
+      "slug": "star-life-cycle-notes",
+      "title": "Star Life Cycle — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-notes.svg"
+    },
+    {
+      "slug": "star-life-cycle-worksheet",
+      "title": "Star Life Cycle — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-worksheet.svg"
+    },
+    {
+      "slug": "star-life-cycle-review",
+      "title": "Star Life Cycle — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-review.svg"
+    },
+    {
+      "slug": "star-life-cycle-flashcards",
+      "title": "Star Life Cycle — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-flashcards.svg"
+    },
+    {
+      "slug": "star-life-cycle-module",
+      "title": "Star Life Cycle — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-module.svg"
+    },
+    {
+      "slug": "star-life-cycle-lesson",
+      "title": "Star Life Cycle — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-lesson.svg"
+    },
+    {
+      "slug": "star-life-cycle-summary",
+      "title": "Star Life Cycle — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-summary.svg"
+    },
+    {
+      "slug": "star-life-cycle-chart",
+      "title": "Star Life Cycle — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-chart.svg"
+    },
+    {
+      "slug": "star-life-cycle-overview",
+      "title": "Star Life Cycle — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-overview.svg"
+    },
+    {
+      "slug": "star-life-cycle-lab",
+      "title": "Star Life Cycle — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-lab.svg"
+    },
+    {
+      "slug": "star-life-cycle-unit-test-prep",
+      "title": "Star Life Cycle — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-unit-test-prep.svg"
+    },
+    {
+      "slug": "star-life-cycle-key-terms",
+      "title": "Star Life Cycle — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/star-life-cycle-key-terms.svg"
+    },
+    {
+      "slug": "ecosystems-study-guide",
+      "title": "Ecosystems — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-study-guide.svg"
+    },
+    {
+      "slug": "ecosystems-diagram",
+      "title": "Ecosystems — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-diagram.svg"
+    },
+    {
+      "slug": "ecosystems-notes",
+      "title": "Ecosystems — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-notes.svg"
+    },
+    {
+      "slug": "ecosystems-worksheet",
+      "title": "Ecosystems — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-worksheet.svg"
+    },
+    {
+      "slug": "ecosystems-review",
+      "title": "Ecosystems — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-review.svg"
+    },
+    {
+      "slug": "ecosystems-flashcards",
+      "title": "Ecosystems — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-flashcards.svg"
+    },
+    {
+      "slug": "ecosystems-module",
+      "title": "Ecosystems — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-module.svg"
+    },
+    {
+      "slug": "ecosystems-lesson",
+      "title": "Ecosystems — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-lesson.svg"
+    },
+    {
+      "slug": "ecosystems-summary",
+      "title": "Ecosystems — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-summary.svg"
+    },
+    {
+      "slug": "ecosystems-chart",
+      "title": "Ecosystems — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-chart.svg"
+    },
+    {
+      "slug": "ecosystems-overview",
+      "title": "Ecosystems — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-overview.svg"
+    },
+    {
+      "slug": "ecosystems-lab",
+      "title": "Ecosystems — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-lab.svg"
+    },
+    {
+      "slug": "ecosystems-unit-test-prep",
+      "title": "Ecosystems — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-unit-test-prep.svg"
+    },
+    {
+      "slug": "ecosystems-key-terms",
+      "title": "Ecosystems — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecosystems-key-terms.svg"
+    },
+    {
+      "slug": "sentence-structure-study-guide",
+      "title": "Sentence Structure — Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-study-guide.svg"
+    },
+    {
+      "slug": "sentence-structure-diagram",
+      "title": "Sentence Structure — Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-diagram.svg"
+    },
+    {
+      "slug": "sentence-structure-notes",
+      "title": "Sentence Structure — Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-notes.svg"
+    },
+    {
+      "slug": "sentence-structure-worksheet",
+      "title": "Sentence Structure — Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-worksheet.svg"
+    },
+    {
+      "slug": "sentence-structure-review",
+      "title": "Sentence Structure — Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-review.svg"
+    },
+    {
+      "slug": "sentence-structure-flashcards",
+      "title": "Sentence Structure — Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-flashcards.svg"
+    },
+    {
+      "slug": "sentence-structure-module",
+      "title": "Sentence Structure — Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-module.svg"
+    },
+    {
+      "slug": "sentence-structure-lesson",
+      "title": "Sentence Structure — Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-lesson.svg"
+    },
+    {
+      "slug": "sentence-structure-summary",
+      "title": "Sentence Structure — Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-summary.svg"
+    },
+    {
+      "slug": "sentence-structure-chart",
+      "title": "Sentence Structure — Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-chart.svg"
+    },
+    {
+      "slug": "sentence-structure-overview",
+      "title": "Sentence Structure — Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-overview.svg"
+    },
+    {
+      "slug": "sentence-structure-lab",
+      "title": "Sentence Structure — Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-lab.svg"
+    },
+    {
+      "slug": "sentence-structure-unit-test-prep",
+      "title": "Sentence Structure — Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-unit-test-prep.svg"
+    },
+    {
+      "slug": "sentence-structure-key-terms",
+      "title": "Sentence Structure — Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/sentence-structure-key-terms.svg"
+    },
+    {
+      "slug": "biology-study-guide",
+      "title": "Biology: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-study-guide.svg"
+    },
+    {
+      "slug": "biology-diagram",
+      "title": "Biology: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-diagram.svg"
+    },
+    {
+      "slug": "biology-notes",
+      "title": "Biology: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-notes.svg"
+    },
+    {
+      "slug": "biology-worksheet",
+      "title": "Biology: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-worksheet.svg"
+    },
+    {
+      "slug": "biology-review",
+      "title": "Biology: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-review.svg"
+    },
+    {
+      "slug": "biology-flashcards",
+      "title": "Biology: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-flashcards.svg"
+    },
+    {
+      "slug": "biology-module",
+      "title": "Biology: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-module.svg"
+    },
+    {
+      "slug": "biology-lesson",
+      "title": "Biology: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-lesson.svg"
+    },
+    {
+      "slug": "biology-summary",
+      "title": "Biology: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-summary.svg"
+    },
+    {
+      "slug": "biology-chart",
+      "title": "Biology: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-chart.svg"
+    },
+    {
+      "slug": "biology-overview",
+      "title": "Biology: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-overview.svg"
+    },
+    {
+      "slug": "biology-lab",
+      "title": "Biology: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-lab.svg"
+    },
+    {
+      "slug": "biology-unit-test-prep",
+      "title": "Biology: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-unit-test-prep.svg"
+    },
+    {
+      "slug": "biology-key-terms",
+      "title": "Biology: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-key-terms.svg"
+    },
+    {
+      "slug": "chemistry-study-guide",
+      "title": "Chemistry: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-study-guide.svg"
+    },
+    {
+      "slug": "chemistry-diagram",
+      "title": "Chemistry: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-diagram.svg"
+    },
+    {
+      "slug": "chemistry-notes",
+      "title": "Chemistry: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-notes.svg"
+    },
+    {
+      "slug": "chemistry-worksheet",
+      "title": "Chemistry: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-worksheet.svg"
+    },
+    {
+      "slug": "chemistry-review",
+      "title": "Chemistry: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-review.svg"
+    },
+    {
+      "slug": "chemistry-flashcards",
+      "title": "Chemistry: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-flashcards.svg"
+    },
+    {
+      "slug": "chemistry-module",
+      "title": "Chemistry: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-module.svg"
+    },
+    {
+      "slug": "chemistry-lesson",
+      "title": "Chemistry: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-lesson.svg"
+    },
+    {
+      "slug": "chemistry-summary",
+      "title": "Chemistry: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-summary.svg"
+    },
+    {
+      "slug": "chemistry-chart",
+      "title": "Chemistry: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-chart.svg"
+    },
+    {
+      "slug": "chemistry-overview",
+      "title": "Chemistry: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-overview.svg"
+    },
+    {
+      "slug": "chemistry-lab",
+      "title": "Chemistry: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-lab.svg"
+    },
+    {
+      "slug": "chemistry-unit-test-prep",
+      "title": "Chemistry: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-unit-test-prep.svg"
+    },
+    {
+      "slug": "chemistry-key-terms",
+      "title": "Chemistry: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-key-terms.svg"
+    },
+    {
+      "slug": "physics-study-guide",
+      "title": "Physics: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-study-guide.svg"
+    },
+    {
+      "slug": "physics-diagram",
+      "title": "Physics: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-diagram.svg"
+    },
+    {
+      "slug": "physics-notes",
+      "title": "Physics: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-notes.svg"
+    },
+    {
+      "slug": "physics-worksheet",
+      "title": "Physics: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-worksheet.svg"
+    },
+    {
+      "slug": "physics-review",
+      "title": "Physics: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-review.svg"
+    },
+    {
+      "slug": "physics-flashcards",
+      "title": "Physics: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-flashcards.svg"
+    },
+    {
+      "slug": "physics-module",
+      "title": "Physics: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-module.svg"
+    },
+    {
+      "slug": "physics-lesson",
+      "title": "Physics: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-lesson.svg"
+    },
+    {
+      "slug": "physics-summary",
+      "title": "Physics: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-summary.svg"
+    },
+    {
+      "slug": "physics-chart",
+      "title": "Physics: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-chart.svg"
+    },
+    {
+      "slug": "physics-overview",
+      "title": "Physics: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-overview.svg"
+    },
+    {
+      "slug": "physics-lab",
+      "title": "Physics: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-lab.svg"
+    },
+    {
+      "slug": "physics-unit-test-prep",
+      "title": "Physics: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-unit-test-prep.svg"
+    },
+    {
+      "slug": "physics-key-terms",
+      "title": "Physics: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-key-terms.svg"
+    },
+    {
+      "slug": "algebra-study-guide",
+      "title": "Algebra: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-study-guide.svg"
+    },
+    {
+      "slug": "algebra-diagram",
+      "title": "Algebra: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-diagram.svg"
+    },
+    {
+      "slug": "algebra-notes",
+      "title": "Algebra: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-notes.svg"
+    },
+    {
+      "slug": "algebra-worksheet",
+      "title": "Algebra: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-worksheet.svg"
+    },
+    {
+      "slug": "algebra-review",
+      "title": "Algebra: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-review.svg"
+    },
+    {
+      "slug": "algebra-flashcards",
+      "title": "Algebra: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-flashcards.svg"
+    },
+    {
+      "slug": "algebra-module",
+      "title": "Algebra: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-module.svg"
+    },
+    {
+      "slug": "algebra-lesson",
+      "title": "Algebra: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-lesson.svg"
+    },
+    {
+      "slug": "algebra-summary",
+      "title": "Algebra: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-summary.svg"
+    },
+    {
+      "slug": "algebra-chart",
+      "title": "Algebra: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-chart.svg"
+    },
+    {
+      "slug": "algebra-overview",
+      "title": "Algebra: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-overview.svg"
+    },
+    {
+      "slug": "algebra-lab",
+      "title": "Algebra: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-lab.svg"
+    },
+    {
+      "slug": "algebra-unit-test-prep",
+      "title": "Algebra: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-unit-test-prep.svg"
+    },
+    {
+      "slug": "algebra-key-terms",
+      "title": "Algebra: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-key-terms.svg"
+    },
+    {
+      "slug": "geometry-study-guide",
+      "title": "Geometry: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-study-guide.svg"
+    },
+    {
+      "slug": "geometry-diagram",
+      "title": "Geometry: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-diagram.svg"
+    },
+    {
+      "slug": "geometry-notes",
+      "title": "Geometry: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-notes.svg"
+    },
+    {
+      "slug": "geometry-worksheet",
+      "title": "Geometry: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-worksheet.svg"
+    },
+    {
+      "slug": "geometry-review",
+      "title": "Geometry: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-review.svg"
+    },
+    {
+      "slug": "geometry-flashcards",
+      "title": "Geometry: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-flashcards.svg"
+    },
+    {
+      "slug": "geometry-module",
+      "title": "Geometry: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-module.svg"
+    },
+    {
+      "slug": "geometry-lesson",
+      "title": "Geometry: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-lesson.svg"
+    },
+    {
+      "slug": "geometry-summary",
+      "title": "Geometry: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-summary.svg"
+    },
+    {
+      "slug": "geometry-chart",
+      "title": "Geometry: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-chart.svg"
+    },
+    {
+      "slug": "geometry-overview",
+      "title": "Geometry: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-overview.svg"
+    },
+    {
+      "slug": "geometry-lab",
+      "title": "Geometry: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-lab.svg"
+    },
+    {
+      "slug": "geometry-unit-test-prep",
+      "title": "Geometry: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-unit-test-prep.svg"
+    },
+    {
+      "slug": "geometry-key-terms",
+      "title": "Geometry: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-key-terms.svg"
+    },
+    {
+      "slug": "calculus-study-guide",
+      "title": "Calculus: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-study-guide.svg"
+    },
+    {
+      "slug": "calculus-diagram",
+      "title": "Calculus: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-diagram.svg"
+    },
+    {
+      "slug": "calculus-notes",
+      "title": "Calculus: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-notes.svg"
+    },
+    {
+      "slug": "calculus-worksheet",
+      "title": "Calculus: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-worksheet.svg"
+    },
+    {
+      "slug": "calculus-review",
+      "title": "Calculus: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-review.svg"
+    },
+    {
+      "slug": "calculus-flashcards",
+      "title": "Calculus: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-flashcards.svg"
+    },
+    {
+      "slug": "calculus-module",
+      "title": "Calculus: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-module.svg"
+    },
+    {
+      "slug": "calculus-lesson",
+      "title": "Calculus: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-lesson.svg"
+    },
+    {
+      "slug": "calculus-summary",
+      "title": "Calculus: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-summary.svg"
+    },
+    {
+      "slug": "calculus-chart",
+      "title": "Calculus: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-chart.svg"
+    },
+    {
+      "slug": "calculus-overview",
+      "title": "Calculus: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-overview.svg"
+    },
+    {
+      "slug": "calculus-lab",
+      "title": "Calculus: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-lab.svg"
+    },
+    {
+      "slug": "calculus-unit-test-prep",
+      "title": "Calculus: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-unit-test-prep.svg"
+    },
+    {
+      "slug": "calculus-key-terms",
+      "title": "Calculus: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-key-terms.svg"
+    },
+    {
+      "slug": "statistics-study-guide",
+      "title": "Statistics: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-study-guide.svg"
+    },
+    {
+      "slug": "statistics-diagram",
+      "title": "Statistics: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-diagram.svg"
+    },
+    {
+      "slug": "statistics-notes",
+      "title": "Statistics: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-notes.svg"
+    },
+    {
+      "slug": "statistics-worksheet",
+      "title": "Statistics: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-worksheet.svg"
+    },
+    {
+      "slug": "statistics-review",
+      "title": "Statistics: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-review.svg"
+    },
+    {
+      "slug": "statistics-flashcards",
+      "title": "Statistics: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-flashcards.svg"
+    },
+    {
+      "slug": "statistics-module",
+      "title": "Statistics: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-module.svg"
+    },
+    {
+      "slug": "statistics-lesson",
+      "title": "Statistics: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-lesson.svg"
+    },
+    {
+      "slug": "statistics-summary",
+      "title": "Statistics: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-summary.svg"
+    },
+    {
+      "slug": "statistics-chart",
+      "title": "Statistics: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-chart.svg"
+    },
+    {
+      "slug": "statistics-overview",
+      "title": "Statistics: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-overview.svg"
+    },
+    {
+      "slug": "statistics-lab",
+      "title": "Statistics: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-lab.svg"
+    },
+    {
+      "slug": "statistics-unit-test-prep",
+      "title": "Statistics: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-unit-test-prep.svg"
+    },
+    {
+      "slug": "statistics-key-terms",
+      "title": "Statistics: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-key-terms.svg"
+    },
+    {
+      "slug": "world-history-study-guide",
+      "title": "World History: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-study-guide.svg"
+    },
+    {
+      "slug": "world-history-diagram",
+      "title": "World History: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-diagram.svg"
+    },
+    {
+      "slug": "world-history-notes",
+      "title": "World History: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-notes.svg"
+    },
+    {
+      "slug": "world-history-worksheet",
+      "title": "World History: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-worksheet.svg"
+    },
+    {
+      "slug": "world-history-review",
+      "title": "World History: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-review.svg"
+    },
+    {
+      "slug": "world-history-flashcards",
+      "title": "World History: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-flashcards.svg"
+    },
+    {
+      "slug": "world-history-module",
+      "title": "World History: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-module.svg"
+    },
+    {
+      "slug": "world-history-lesson",
+      "title": "World History: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-lesson.svg"
+    },
+    {
+      "slug": "world-history-summary",
+      "title": "World History: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-summary.svg"
+    },
+    {
+      "slug": "world-history-chart",
+      "title": "World History: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-chart.svg"
+    },
+    {
+      "slug": "world-history-overview",
+      "title": "World History: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-overview.svg"
+    },
+    {
+      "slug": "world-history-lab",
+      "title": "World History: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-lab.svg"
+    },
+    {
+      "slug": "world-history-unit-test-prep",
+      "title": "World History: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-unit-test-prep.svg"
+    },
+    {
+      "slug": "world-history-key-terms",
+      "title": "World History: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/world-history-key-terms.svg"
+    },
+    {
+      "slug": "us-history-study-guide",
+      "title": "Us History: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-study-guide.svg"
+    },
+    {
+      "slug": "us-history-diagram",
+      "title": "Us History: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-diagram.svg"
+    },
+    {
+      "slug": "us-history-notes",
+      "title": "Us History: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-notes.svg"
+    },
+    {
+      "slug": "us-history-worksheet",
+      "title": "Us History: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-worksheet.svg"
+    },
+    {
+      "slug": "us-history-review",
+      "title": "Us History: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-review.svg"
+    },
+    {
+      "slug": "us-history-flashcards",
+      "title": "Us History: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-flashcards.svg"
+    },
+    {
+      "slug": "us-history-module",
+      "title": "Us History: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-module.svg"
+    },
+    {
+      "slug": "us-history-lesson",
+      "title": "Us History: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-lesson.svg"
+    },
+    {
+      "slug": "us-history-summary",
+      "title": "Us History: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-summary.svg"
+    },
+    {
+      "slug": "us-history-chart",
+      "title": "Us History: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-chart.svg"
+    },
+    {
+      "slug": "us-history-overview",
+      "title": "Us History: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-overview.svg"
+    },
+    {
+      "slug": "us-history-lab",
+      "title": "Us History: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-lab.svg"
+    },
+    {
+      "slug": "us-history-unit-test-prep",
+      "title": "Us History: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-unit-test-prep.svg"
+    },
+    {
+      "slug": "us-history-key-terms",
+      "title": "Us History: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/us-history-key-terms.svg"
+    },
+    {
+      "slug": "geography-study-guide",
+      "title": "Geography: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-study-guide.svg"
+    },
+    {
+      "slug": "geography-diagram",
+      "title": "Geography: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-diagram.svg"
+    },
+    {
+      "slug": "geography-notes",
+      "title": "Geography: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-notes.svg"
+    },
+    {
+      "slug": "geography-worksheet",
+      "title": "Geography: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-worksheet.svg"
+    },
+    {
+      "slug": "geography-review",
+      "title": "Geography: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-review.svg"
+    },
+    {
+      "slug": "geography-flashcards",
+      "title": "Geography: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-flashcards.svg"
+    },
+    {
+      "slug": "geography-module",
+      "title": "Geography: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-module.svg"
+    },
+    {
+      "slug": "geography-lesson",
+      "title": "Geography: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-lesson.svg"
+    },
+    {
+      "slug": "geography-summary",
+      "title": "Geography: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-summary.svg"
+    },
+    {
+      "slug": "geography-chart",
+      "title": "Geography: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-chart.svg"
+    },
+    {
+      "slug": "geography-overview",
+      "title": "Geography: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-overview.svg"
+    },
+    {
+      "slug": "geography-lab",
+      "title": "Geography: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-lab.svg"
+    },
+    {
+      "slug": "geography-unit-test-prep",
+      "title": "Geography: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-unit-test-prep.svg"
+    },
+    {
+      "slug": "geography-key-terms",
+      "title": "Geography: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geography-key-terms.svg"
+    },
+    {
+      "slug": "economics-study-guide",
+      "title": "Economics: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-study-guide.svg"
+    },
+    {
+      "slug": "economics-diagram",
+      "title": "Economics: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-diagram.svg"
+    },
+    {
+      "slug": "economics-notes",
+      "title": "Economics: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-notes.svg"
+    },
+    {
+      "slug": "economics-worksheet",
+      "title": "Economics: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-worksheet.svg"
+    },
+    {
+      "slug": "economics-review",
+      "title": "Economics: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-review.svg"
+    },
+    {
+      "slug": "economics-flashcards",
+      "title": "Economics: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-flashcards.svg"
+    },
+    {
+      "slug": "economics-module",
+      "title": "Economics: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-module.svg"
+    },
+    {
+      "slug": "economics-lesson",
+      "title": "Economics: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-lesson.svg"
+    },
+    {
+      "slug": "economics-summary",
+      "title": "Economics: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-summary.svg"
+    },
+    {
+      "slug": "economics-chart",
+      "title": "Economics: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-chart.svg"
+    },
+    {
+      "slug": "economics-overview",
+      "title": "Economics: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-overview.svg"
+    },
+    {
+      "slug": "economics-lab",
+      "title": "Economics: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-lab.svg"
+    },
+    {
+      "slug": "economics-unit-test-prep",
+      "title": "Economics: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-unit-test-prep.svg"
+    },
+    {
+      "slug": "economics-key-terms",
+      "title": "Economics: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/economics-key-terms.svg"
+    },
+    {
+      "slug": "astronomy-study-guide",
+      "title": "Astronomy: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-study-guide.svg"
+    },
+    {
+      "slug": "astronomy-diagram",
+      "title": "Astronomy: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-diagram.svg"
+    },
+    {
+      "slug": "astronomy-notes",
+      "title": "Astronomy: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-notes.svg"
+    },
+    {
+      "slug": "astronomy-worksheet",
+      "title": "Astronomy: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-worksheet.svg"
+    },
+    {
+      "slug": "astronomy-review",
+      "title": "Astronomy: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-review.svg"
+    },
+    {
+      "slug": "astronomy-flashcards",
+      "title": "Astronomy: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-flashcards.svg"
+    },
+    {
+      "slug": "astronomy-module",
+      "title": "Astronomy: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-module.svg"
+    },
+    {
+      "slug": "astronomy-lesson",
+      "title": "Astronomy: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-lesson.svg"
+    },
+    {
+      "slug": "astronomy-summary",
+      "title": "Astronomy: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-summary.svg"
+    },
+    {
+      "slug": "astronomy-chart",
+      "title": "Astronomy: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-chart.svg"
+    },
+    {
+      "slug": "astronomy-overview",
+      "title": "Astronomy: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-overview.svg"
+    },
+    {
+      "slug": "astronomy-lab",
+      "title": "Astronomy: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-lab.svg"
+    },
+    {
+      "slug": "astronomy-unit-test-prep",
+      "title": "Astronomy: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-unit-test-prep.svg"
+    },
+    {
+      "slug": "astronomy-key-terms",
+      "title": "Astronomy: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/astronomy-key-terms.svg"
+    },
+    {
+      "slug": "ecology-study-guide",
+      "title": "Ecology: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-study-guide.svg"
+    },
+    {
+      "slug": "ecology-diagram",
+      "title": "Ecology: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-diagram.svg"
+    },
+    {
+      "slug": "ecology-notes",
+      "title": "Ecology: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-notes.svg"
+    },
+    {
+      "slug": "ecology-worksheet",
+      "title": "Ecology: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-worksheet.svg"
+    },
+    {
+      "slug": "ecology-review",
+      "title": "Ecology: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-review.svg"
+    },
+    {
+      "slug": "ecology-flashcards",
+      "title": "Ecology: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-flashcards.svg"
+    },
+    {
+      "slug": "ecology-module",
+      "title": "Ecology: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-module.svg"
+    },
+    {
+      "slug": "ecology-lesson",
+      "title": "Ecology: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-lesson.svg"
+    },
+    {
+      "slug": "ecology-summary",
+      "title": "Ecology: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-summary.svg"
+    },
+    {
+      "slug": "ecology-chart",
+      "title": "Ecology: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-chart.svg"
+    },
+    {
+      "slug": "ecology-overview",
+      "title": "Ecology: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-overview.svg"
+    },
+    {
+      "slug": "ecology-lab",
+      "title": "Ecology: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-lab.svg"
+    },
+    {
+      "slug": "ecology-unit-test-prep",
+      "title": "Ecology: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-unit-test-prep.svg"
+    },
+    {
+      "slug": "ecology-key-terms",
+      "title": "Ecology: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/ecology-key-terms.svg"
+    },
+    {
+      "slug": "grammar-study-guide",
+      "title": "Grammar: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-study-guide.svg"
+    },
+    {
+      "slug": "grammar-diagram",
+      "title": "Grammar: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-diagram.svg"
+    },
+    {
+      "slug": "grammar-notes",
+      "title": "Grammar: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-notes.svg"
+    },
+    {
+      "slug": "grammar-worksheet",
+      "title": "Grammar: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-worksheet.svg"
+    },
+    {
+      "slug": "grammar-review",
+      "title": "Grammar: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-review.svg"
+    },
+    {
+      "slug": "grammar-flashcards",
+      "title": "Grammar: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-flashcards.svg"
+    },
+    {
+      "slug": "grammar-module",
+      "title": "Grammar: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-module.svg"
+    },
+    {
+      "slug": "grammar-lesson",
+      "title": "Grammar: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-lesson.svg"
+    },
+    {
+      "slug": "grammar-summary",
+      "title": "Grammar: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-summary.svg"
+    },
+    {
+      "slug": "grammar-chart",
+      "title": "Grammar: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-chart.svg"
+    },
+    {
+      "slug": "grammar-overview",
+      "title": "Grammar: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-overview.svg"
+    },
+    {
+      "slug": "grammar-lab",
+      "title": "Grammar: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-lab.svg"
+    },
+    {
+      "slug": "grammar-unit-test-prep",
+      "title": "Grammar: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-unit-test-prep.svg"
+    },
+    {
+      "slug": "grammar-key-terms",
+      "title": "Grammar: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/grammar-key-terms.svg"
+    },
+    {
+      "slug": "literature-study-guide",
+      "title": "Literature: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-study-guide.svg"
+    },
+    {
+      "slug": "literature-diagram",
+      "title": "Literature: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-diagram.svg"
+    },
+    {
+      "slug": "literature-notes",
+      "title": "Literature: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-notes.svg"
+    },
+    {
+      "slug": "literature-worksheet",
+      "title": "Literature: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-worksheet.svg"
+    },
+    {
+      "slug": "literature-review",
+      "title": "Literature: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-review.svg"
+    },
+    {
+      "slug": "literature-flashcards",
+      "title": "Literature: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-flashcards.svg"
+    },
+    {
+      "slug": "literature-module",
+      "title": "Literature: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-module.svg"
+    },
+    {
+      "slug": "literature-lesson",
+      "title": "Literature: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-lesson.svg"
+    },
+    {
+      "slug": "literature-summary",
+      "title": "Literature: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-summary.svg"
+    },
+    {
+      "slug": "literature-chart",
+      "title": "Literature: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-chart.svg"
+    },
+    {
+      "slug": "literature-overview",
+      "title": "Literature: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-overview.svg"
+    },
+    {
+      "slug": "literature-lab",
+      "title": "Literature: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-lab.svg"
+    },
+    {
+      "slug": "literature-unit-test-prep",
+      "title": "Literature: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-unit-test-prep.svg"
+    },
+    {
+      "slug": "literature-key-terms",
+      "title": "Literature: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/literature-key-terms.svg"
+    },
+    {
+      "slug": "civics-study-guide",
+      "title": "Civics: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-study-guide.svg"
+    },
+    {
+      "slug": "civics-diagram",
+      "title": "Civics: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-diagram.svg"
+    },
+    {
+      "slug": "civics-notes",
+      "title": "Civics: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-notes.svg"
+    },
+    {
+      "slug": "civics-worksheet",
+      "title": "Civics: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-worksheet.svg"
+    },
+    {
+      "slug": "civics-review",
+      "title": "Civics: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-review.svg"
+    },
+    {
+      "slug": "civics-flashcards",
+      "title": "Civics: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-flashcards.svg"
+    },
+    {
+      "slug": "civics-module",
+      "title": "Civics: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-module.svg"
+    },
+    {
+      "slug": "civics-lesson",
+      "title": "Civics: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-lesson.svg"
+    },
+    {
+      "slug": "civics-summary",
+      "title": "Civics: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-summary.svg"
+    },
+    {
+      "slug": "civics-chart",
+      "title": "Civics: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-chart.svg"
+    },
+    {
+      "slug": "civics-overview",
+      "title": "Civics: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-overview.svg"
+    },
+    {
+      "slug": "civics-lab",
+      "title": "Civics: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-lab.svg"
+    },
+    {
+      "slug": "civics-unit-test-prep",
+      "title": "Civics: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-unit-test-prep.svg"
+    },
+    {
+      "slug": "civics-key-terms",
+      "title": "Civics: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/civics-key-terms.svg"
+    },
+    {
+      "slug": "anatomy-study-guide",
+      "title": "Anatomy: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-study-guide.svg"
+    },
+    {
+      "slug": "anatomy-diagram",
+      "title": "Anatomy: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-diagram.svg"
+    },
+    {
+      "slug": "anatomy-notes",
+      "title": "Anatomy: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-notes.svg"
+    },
+    {
+      "slug": "anatomy-worksheet",
+      "title": "Anatomy: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-worksheet.svg"
+    },
+    {
+      "slug": "anatomy-review",
+      "title": "Anatomy: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-review.svg"
+    },
+    {
+      "slug": "anatomy-flashcards",
+      "title": "Anatomy: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-flashcards.svg"
+    },
+    {
+      "slug": "anatomy-module",
+      "title": "Anatomy: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-module.svg"
+    },
+    {
+      "slug": "anatomy-lesson",
+      "title": "Anatomy: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-lesson.svg"
+    },
+    {
+      "slug": "anatomy-summary",
+      "title": "Anatomy: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-summary.svg"
+    },
+    {
+      "slug": "anatomy-chart",
+      "title": "Anatomy: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-chart.svg"
+    },
+    {
+      "slug": "anatomy-overview",
+      "title": "Anatomy: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-overview.svg"
+    },
+    {
+      "slug": "anatomy-lab",
+      "title": "Anatomy: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-lab.svg"
+    },
+    {
+      "slug": "anatomy-unit-test-prep",
+      "title": "Anatomy: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-unit-test-prep.svg"
+    },
+    {
+      "slug": "anatomy-key-terms",
+      "title": "Anatomy: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/anatomy-key-terms.svg"
+    },
+    {
+      "slug": "geology-study-guide",
+      "title": "Geology: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-study-guide.svg"
+    },
+    {
+      "slug": "geology-diagram",
+      "title": "Geology: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-diagram.svg"
+    },
+    {
+      "slug": "geology-notes",
+      "title": "Geology: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-notes.svg"
+    },
+    {
+      "slug": "geology-worksheet",
+      "title": "Geology: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-worksheet.svg"
+    },
+    {
+      "slug": "geology-review",
+      "title": "Geology: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-review.svg"
+    },
+    {
+      "slug": "geology-flashcards",
+      "title": "Geology: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-flashcards.svg"
+    },
+    {
+      "slug": "geology-module",
+      "title": "Geology: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-module.svg"
+    },
+    {
+      "slug": "geology-lesson",
+      "title": "Geology: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-lesson.svg"
+    },
+    {
+      "slug": "geology-summary",
+      "title": "Geology: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-summary.svg"
+    },
+    {
+      "slug": "geology-chart",
+      "title": "Geology: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-chart.svg"
+    },
+    {
+      "slug": "geology-overview",
+      "title": "Geology: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-overview.svg"
+    },
+    {
+      "slug": "geology-lab",
+      "title": "Geology: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-lab.svg"
+    },
+    {
+      "slug": "geology-unit-test-prep",
+      "title": "Geology: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-unit-test-prep.svg"
+    },
+    {
+      "slug": "geology-key-terms",
+      "title": "Geology: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geology-key-terms.svg"
+    },
+    {
+      "slug": "botany-study-guide",
+      "title": "Botany: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-study-guide.svg"
+    },
+    {
+      "slug": "botany-diagram",
+      "title": "Botany: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-diagram.svg"
+    },
+    {
+      "slug": "botany-notes",
+      "title": "Botany: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-notes.svg"
+    },
+    {
+      "slug": "botany-worksheet",
+      "title": "Botany: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-worksheet.svg"
+    },
+    {
+      "slug": "botany-review",
+      "title": "Botany: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-review.svg"
+    },
+    {
+      "slug": "botany-flashcards",
+      "title": "Botany: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-flashcards.svg"
+    },
+    {
+      "slug": "botany-module",
+      "title": "Botany: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-module.svg"
+    },
+    {
+      "slug": "botany-lesson",
+      "title": "Botany: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-lesson.svg"
+    },
+    {
+      "slug": "botany-summary",
+      "title": "Botany: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-summary.svg"
+    },
+    {
+      "slug": "botany-chart",
+      "title": "Botany: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-chart.svg"
+    },
+    {
+      "slug": "botany-overview",
+      "title": "Botany: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-overview.svg"
+    },
+    {
+      "slug": "botany-lab",
+      "title": "Botany: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-lab.svg"
+    },
+    {
+      "slug": "botany-unit-test-prep",
+      "title": "Botany: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-unit-test-prep.svg"
+    },
+    {
+      "slug": "botany-key-terms",
+      "title": "Botany: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/botany-key-terms.svg"
+    },
+    {
+      "slug": "zoology-study-guide",
+      "title": "Zoology: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-study-guide.svg"
+    },
+    {
+      "slug": "zoology-diagram",
+      "title": "Zoology: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-diagram.svg"
+    },
+    {
+      "slug": "zoology-notes",
+      "title": "Zoology: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-notes.svg"
+    },
+    {
+      "slug": "zoology-worksheet",
+      "title": "Zoology: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-worksheet.svg"
+    },
+    {
+      "slug": "zoology-review",
+      "title": "Zoology: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-review.svg"
+    },
+    {
+      "slug": "zoology-flashcards",
+      "title": "Zoology: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-flashcards.svg"
+    },
+    {
+      "slug": "zoology-module",
+      "title": "Zoology: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-module.svg"
+    },
+    {
+      "slug": "zoology-lesson",
+      "title": "Zoology: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-lesson.svg"
+    },
+    {
+      "slug": "zoology-summary",
+      "title": "Zoology: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-summary.svg"
+    },
+    {
+      "slug": "zoology-chart",
+      "title": "Zoology: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-chart.svg"
+    },
+    {
+      "slug": "zoology-overview",
+      "title": "Zoology: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-overview.svg"
+    },
+    {
+      "slug": "zoology-lab",
+      "title": "Zoology: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-lab.svg"
+    },
+    {
+      "slug": "zoology-unit-test-prep",
+      "title": "Zoology: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-unit-test-prep.svg"
+    },
+    {
+      "slug": "zoology-key-terms",
+      "title": "Zoology: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/zoology-key-terms.svg"
+    },
+    {
+      "slug": "psychology-study-guide",
+      "title": "Psychology: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-study-guide.svg"
+    },
+    {
+      "slug": "psychology-diagram",
+      "title": "Psychology: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-diagram.svg"
+    },
+    {
+      "slug": "psychology-notes",
+      "title": "Psychology: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-notes.svg"
+    },
+    {
+      "slug": "psychology-worksheet",
+      "title": "Psychology: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-worksheet.svg"
+    },
+    {
+      "slug": "psychology-review",
+      "title": "Psychology: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-review.svg"
+    },
+    {
+      "slug": "psychology-flashcards",
+      "title": "Psychology: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-flashcards.svg"
+    },
+    {
+      "slug": "psychology-module",
+      "title": "Psychology: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-module.svg"
+    },
+    {
+      "slug": "psychology-lesson",
+      "title": "Psychology: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-lesson.svg"
+    },
+    {
+      "slug": "psychology-summary",
+      "title": "Psychology: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-summary.svg"
+    },
+    {
+      "slug": "psychology-chart",
+      "title": "Psychology: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-chart.svg"
+    },
+    {
+      "slug": "psychology-overview",
+      "title": "Psychology: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-overview.svg"
+    },
+    {
+      "slug": "psychology-lab",
+      "title": "Psychology: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-lab.svg"
+    },
+    {
+      "slug": "psychology-unit-test-prep",
+      "title": "Psychology: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-unit-test-prep.svg"
+    },
+    {
+      "slug": "psychology-key-terms",
+      "title": "Psychology: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/psychology-key-terms.svg"
+    },
+    {
+      "slug": "trigonometry-study-guide",
+      "title": "Trigonometry: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-study-guide.svg"
+    },
+    {
+      "slug": "trigonometry-diagram",
+      "title": "Trigonometry: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-diagram.svg"
+    },
+    {
+      "slug": "trigonometry-notes",
+      "title": "Trigonometry: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-notes.svg"
+    },
+    {
+      "slug": "trigonometry-worksheet",
+      "title": "Trigonometry: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-worksheet.svg"
+    },
+    {
+      "slug": "trigonometry-review",
+      "title": "Trigonometry: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-review.svg"
+    },
+    {
+      "slug": "trigonometry-flashcards",
+      "title": "Trigonometry: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-flashcards.svg"
+    },
+    {
+      "slug": "trigonometry-module",
+      "title": "Trigonometry: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-module.svg"
+    },
+    {
+      "slug": "trigonometry-lesson",
+      "title": "Trigonometry: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-lesson.svg"
+    },
+    {
+      "slug": "trigonometry-summary",
+      "title": "Trigonometry: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-summary.svg"
+    },
+    {
+      "slug": "trigonometry-chart",
+      "title": "Trigonometry: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-chart.svg"
+    },
+    {
+      "slug": "trigonometry-overview",
+      "title": "Trigonometry: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-overview.svg"
+    },
+    {
+      "slug": "trigonometry-lab",
+      "title": "Trigonometry: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-lab.svg"
+    },
+    {
+      "slug": "trigonometry-unit-test-prep",
+      "title": "Trigonometry: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-unit-test-prep.svg"
+    },
+    {
+      "slug": "trigonometry-key-terms",
+      "title": "Trigonometry: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/trigonometry-key-terms.svg"
+    },
+    {
+      "slug": "earth-science-study-guide",
+      "title": "Earth Science: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-study-guide.svg"
+    },
+    {
+      "slug": "earth-science-diagram",
+      "title": "Earth Science: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-diagram.svg"
+    },
+    {
+      "slug": "earth-science-notes",
+      "title": "Earth Science: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-notes.svg"
+    },
+    {
+      "slug": "earth-science-worksheet",
+      "title": "Earth Science: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-worksheet.svg"
+    },
+    {
+      "slug": "earth-science-review",
+      "title": "Earth Science: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-review.svg"
+    },
+    {
+      "slug": "earth-science-flashcards",
+      "title": "Earth Science: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-flashcards.svg"
+    },
+    {
+      "slug": "earth-science-module",
+      "title": "Earth Science: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-module.svg"
+    },
+    {
+      "slug": "earth-science-lesson",
+      "title": "Earth Science: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-lesson.svg"
+    },
+    {
+      "slug": "earth-science-summary",
+      "title": "Earth Science: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-summary.svg"
+    },
+    {
+      "slug": "earth-science-chart",
+      "title": "Earth Science: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-chart.svg"
+    },
+    {
+      "slug": "earth-science-overview",
+      "title": "Earth Science: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-overview.svg"
+    },
+    {
+      "slug": "earth-science-lab",
+      "title": "Earth Science: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-lab.svg"
+    },
+    {
+      "slug": "earth-science-unit-test-prep",
+      "title": "Earth Science: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-unit-test-prep.svg"
+    },
+    {
+      "slug": "earth-science-key-terms",
+      "title": "Earth Science: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/earth-science-key-terms.svg"
+    },
+    {
+      "slug": "environmental-science-study-guide",
+      "title": "Environmental Science: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-study-guide.svg"
+    },
+    {
+      "slug": "environmental-science-diagram",
+      "title": "Environmental Science: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-diagram.svg"
+    },
+    {
+      "slug": "environmental-science-notes",
+      "title": "Environmental Science: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-notes.svg"
+    },
+    {
+      "slug": "environmental-science-worksheet",
+      "title": "Environmental Science: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-worksheet.svg"
+    },
+    {
+      "slug": "environmental-science-review",
+      "title": "Environmental Science: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-review.svg"
+    },
+    {
+      "slug": "environmental-science-flashcards",
+      "title": "Environmental Science: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-flashcards.svg"
+    },
+    {
+      "slug": "environmental-science-module",
+      "title": "Environmental Science: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-module.svg"
+    },
+    {
+      "slug": "environmental-science-lesson",
+      "title": "Environmental Science: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-lesson.svg"
+    },
+    {
+      "slug": "environmental-science-summary",
+      "title": "Environmental Science: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-summary.svg"
+    },
+    {
+      "slug": "environmental-science-chart",
+      "title": "Environmental Science: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-chart.svg"
+    },
+    {
+      "slug": "environmental-science-overview",
+      "title": "Environmental Science: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-overview.svg"
+    },
+    {
+      "slug": "environmental-science-lab",
+      "title": "Environmental Science: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-lab.svg"
+    },
+    {
+      "slug": "environmental-science-unit-test-prep",
+      "title": "Environmental Science: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-unit-test-prep.svg"
+    },
+    {
+      "slug": "environmental-science-key-terms",
+      "title": "Environmental Science: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/environmental-science-key-terms.svg"
+    },
+    {
+      "slug": "government-study-guide",
+      "title": "Government: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-study-guide.svg"
+    },
+    {
+      "slug": "government-diagram",
+      "title": "Government: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-diagram.svg"
+    },
+    {
+      "slug": "government-notes",
+      "title": "Government: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-notes.svg"
+    },
+    {
+      "slug": "government-worksheet",
+      "title": "Government: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-worksheet.svg"
+    },
+    {
+      "slug": "government-review",
+      "title": "Government: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-review.svg"
+    },
+    {
+      "slug": "government-flashcards",
+      "title": "Government: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-flashcards.svg"
+    },
+    {
+      "slug": "government-module",
+      "title": "Government: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-module.svg"
+    },
+    {
+      "slug": "government-lesson",
+      "title": "Government: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-lesson.svg"
+    },
+    {
+      "slug": "government-summary",
+      "title": "Government: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-summary.svg"
+    },
+    {
+      "slug": "government-chart",
+      "title": "Government: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-chart.svg"
+    },
+    {
+      "slug": "government-overview",
+      "title": "Government: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-overview.svg"
+    },
+    {
+      "slug": "government-lab",
+      "title": "Government: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-lab.svg"
+    },
+    {
+      "slug": "government-unit-test-prep",
+      "title": "Government: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-unit-test-prep.svg"
+    },
+    {
+      "slug": "government-key-terms",
+      "title": "Government: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/government-key-terms.svg"
+    },
+    {
+      "slug": "spanish-study-guide",
+      "title": "Spanish: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-study-guide.svg"
+    },
+    {
+      "slug": "spanish-diagram",
+      "title": "Spanish: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-diagram.svg"
+    },
+    {
+      "slug": "spanish-notes",
+      "title": "Spanish: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-notes.svg"
+    },
+    {
+      "slug": "spanish-worksheet",
+      "title": "Spanish: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-worksheet.svg"
+    },
+    {
+      "slug": "spanish-review",
+      "title": "Spanish: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-review.svg"
+    },
+    {
+      "slug": "spanish-flashcards",
+      "title": "Spanish: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-flashcards.svg"
+    },
+    {
+      "slug": "spanish-module",
+      "title": "Spanish: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-module.svg"
+    },
+    {
+      "slug": "spanish-lesson",
+      "title": "Spanish: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-lesson.svg"
+    },
+    {
+      "slug": "spanish-summary",
+      "title": "Spanish: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-summary.svg"
+    },
+    {
+      "slug": "spanish-chart",
+      "title": "Spanish: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-chart.svg"
+    },
+    {
+      "slug": "spanish-overview",
+      "title": "Spanish: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-overview.svg"
+    },
+    {
+      "slug": "spanish-lab",
+      "title": "Spanish: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-lab.svg"
+    },
+    {
+      "slug": "spanish-unit-test-prep",
+      "title": "Spanish: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-unit-test-prep.svg"
+    },
+    {
+      "slug": "spanish-key-terms",
+      "title": "Spanish: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/spanish-key-terms.svg"
+    },
+    {
+      "slug": "french-study-guide",
+      "title": "French: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-study-guide.svg"
+    },
+    {
+      "slug": "french-diagram",
+      "title": "French: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-diagram.svg"
+    },
+    {
+      "slug": "french-notes",
+      "title": "French: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-notes.svg"
+    },
+    {
+      "slug": "french-worksheet",
+      "title": "French: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-worksheet.svg"
+    },
+    {
+      "slug": "french-review",
+      "title": "French: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-review.svg"
+    },
+    {
+      "slug": "french-flashcards",
+      "title": "French: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-flashcards.svg"
+    },
+    {
+      "slug": "french-module",
+      "title": "French: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-module.svg"
+    },
+    {
+      "slug": "french-lesson",
+      "title": "French: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-lesson.svg"
+    },
+    {
+      "slug": "french-summary",
+      "title": "French: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-summary.svg"
+    },
+    {
+      "slug": "french-chart",
+      "title": "French: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-chart.svg"
+    },
+    {
+      "slug": "french-overview",
+      "title": "French: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-overview.svg"
+    },
+    {
+      "slug": "french-lab",
+      "title": "French: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-lab.svg"
+    },
+    {
+      "slug": "french-unit-test-prep",
+      "title": "French: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-unit-test-prep.svg"
+    },
+    {
+      "slug": "french-key-terms",
+      "title": "French: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/french-key-terms.svg"
+    },
+    {
+      "slug": "music-theory-study-guide",
+      "title": "Music Theory: Study Guide",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-study-guide.svg"
+    },
+    {
+      "slug": "music-theory-diagram",
+      "title": "Music Theory: Diagram",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-diagram.svg"
+    },
+    {
+      "slug": "music-theory-notes",
+      "title": "Music Theory: Notes",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-notes.svg"
+    },
+    {
+      "slug": "music-theory-worksheet",
+      "title": "Music Theory: Worksheet",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-worksheet.svg"
+    },
+    {
+      "slug": "music-theory-review",
+      "title": "Music Theory: Review",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-review.svg"
+    },
+    {
+      "slug": "music-theory-flashcards",
+      "title": "Music Theory: Flashcards",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-flashcards.svg"
+    },
+    {
+      "slug": "music-theory-module",
+      "title": "Music Theory: Module",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-module.svg"
+    },
+    {
+      "slug": "music-theory-lesson",
+      "title": "Music Theory: Lesson",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-lesson.svg"
+    },
+    {
+      "slug": "music-theory-summary",
+      "title": "Music Theory: Summary",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-summary.svg"
+    },
+    {
+      "slug": "music-theory-chart",
+      "title": "Music Theory: Chart",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-chart.svg"
+    },
+    {
+      "slug": "music-theory-overview",
+      "title": "Music Theory: Overview",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-overview.svg"
+    },
+    {
+      "slug": "music-theory-lab",
+      "title": "Music Theory: Lab",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-lab.svg"
+    },
+    {
+      "slug": "music-theory-unit-test-prep",
+      "title": "Music Theory: Unit Test Prep",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-unit-test-prep.svg"
+    },
+    {
+      "slug": "music-theory-key-terms",
+      "title": "Music Theory: Key Terms",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/music-theory-key-terms.svg"
+    },
+    {
+      "slug": "biology-cell-structure",
+      "title": "Biology — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-cell-structure.svg"
+    },
+    {
+      "slug": "biology-photosynthesis",
+      "title": "Biology — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-photosynthesis.svg"
+    },
+    {
+      "slug": "biology-periodic-table",
+      "title": "Biology — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-periodic-table.svg"
+    },
+    {
+      "slug": "biology-newtons-laws",
+      "title": "Biology — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-newtons-laws.svg"
+    },
+    {
+      "slug": "biology-quadratic-equations",
+      "title": "Biology — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-quadratic-equations.svg"
+    },
+    {
+      "slug": "biology-french-revolution",
+      "title": "Biology — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-french-revolution.svg"
+    },
+    {
+      "slug": "biology-plate-tectonics",
+      "title": "Biology — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-plate-tectonics.svg"
+    },
+    {
+      "slug": "biology-supply-and-demand",
+      "title": "Biology — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-supply-and-demand.svg"
+    },
+    {
+      "slug": "biology-solar-system",
+      "title": "Biology — Solar System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-solar-system.svg"
+    },
+    {
+      "slug": "biology-food-webs",
+      "title": "Biology — Food Webs",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-food-webs.svg"
+    },
+    {
+      "slug": "biology-parts-of-speech",
+      "title": "Biology — Parts Of Speech",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-parts-of-speech.svg"
+    },
+    {
+      "slug": "biology-the-water-cycle",
+      "title": "Biology — The Water Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-the-water-cycle.svg"
+    },
+    {
+      "slug": "biology-bill-of-rights",
+      "title": "Biology — Bill Of Rights",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-bill-of-rights.svg"
+    },
+    {
+      "slug": "biology-probability",
+      "title": "Biology — Probability",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-probability.svg"
+    },
+    {
+      "slug": "biology-derivatives",
+      "title": "Biology — Derivatives",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-derivatives.svg"
+    },
+    {
+      "slug": "biology-skeletal-system",
+      "title": "Biology — Skeletal System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-skeletal-system.svg"
+    },
+    {
+      "slug": "biology-rock-cycle",
+      "title": "Biology — Rock Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-rock-cycle.svg"
+    },
+    {
+      "slug": "biology-plant-life",
+      "title": "Biology — Plant Life",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-plant-life.svg"
+    },
+    {
+      "slug": "biology-vertebrates",
+      "title": "Biology — Vertebrates",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-vertebrates.svg"
+    },
+    {
+      "slug": "biology-human-memory",
+      "title": "Biology — Human Memory",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-human-memory.svg"
+    },
+    {
+      "slug": "biology-mitosis",
+      "title": "Biology — Mitosis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-mitosis.svg"
+    },
+    {
+      "slug": "biology-chemical-bonds",
+      "title": "Biology — Chemical Bonds",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-chemical-bonds.svg"
+    },
+    {
+      "slug": "biology-kinematics",
+      "title": "Biology — Kinematics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-kinematics.svg"
+    },
+    {
+      "slug": "biology-linear-functions",
+      "title": "Biology — Linear Functions",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-linear-functions.svg"
+    },
+    {
+      "slug": "biology-the-cold-war",
+      "title": "Biology — The Cold War",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-the-cold-war.svg"
+    },
+    {
+      "slug": "biology-climate-zones",
+      "title": "Biology — Climate Zones",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-climate-zones.svg"
+    },
+    {
+      "slug": "biology-market-structures",
+      "title": "Biology — Market Structures",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-market-structures.svg"
+    },
+    {
+      "slug": "biology-star-life-cycle",
+      "title": "Biology — Star Life Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-star-life-cycle.svg"
+    },
+    {
+      "slug": "biology-ecosystems",
+      "title": "Biology — Ecosystems",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-ecosystems.svg"
+    },
+    {
+      "slug": "biology-sentence-structure",
+      "title": "Biology — Sentence Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/biology-sentence-structure.svg"
+    },
+    {
+      "slug": "chemistry-cell-structure",
+      "title": "Chemistry — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-cell-structure.svg"
+    },
+    {
+      "slug": "chemistry-photosynthesis",
+      "title": "Chemistry — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-photosynthesis.svg"
+    },
+    {
+      "slug": "chemistry-periodic-table",
+      "title": "Chemistry — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-periodic-table.svg"
+    },
+    {
+      "slug": "chemistry-newtons-laws",
+      "title": "Chemistry — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-newtons-laws.svg"
+    },
+    {
+      "slug": "chemistry-quadratic-equations",
+      "title": "Chemistry — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-quadratic-equations.svg"
+    },
+    {
+      "slug": "chemistry-french-revolution",
+      "title": "Chemistry — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-french-revolution.svg"
+    },
+    {
+      "slug": "chemistry-plate-tectonics",
+      "title": "Chemistry — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-plate-tectonics.svg"
+    },
+    {
+      "slug": "chemistry-supply-and-demand",
+      "title": "Chemistry — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-supply-and-demand.svg"
+    },
+    {
+      "slug": "chemistry-solar-system",
+      "title": "Chemistry — Solar System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-solar-system.svg"
+    },
+    {
+      "slug": "chemistry-food-webs",
+      "title": "Chemistry — Food Webs",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-food-webs.svg"
+    },
+    {
+      "slug": "chemistry-parts-of-speech",
+      "title": "Chemistry — Parts Of Speech",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-parts-of-speech.svg"
+    },
+    {
+      "slug": "chemistry-the-water-cycle",
+      "title": "Chemistry — The Water Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-the-water-cycle.svg"
+    },
+    {
+      "slug": "chemistry-bill-of-rights",
+      "title": "Chemistry — Bill Of Rights",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-bill-of-rights.svg"
+    },
+    {
+      "slug": "chemistry-probability",
+      "title": "Chemistry — Probability",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-probability.svg"
+    },
+    {
+      "slug": "chemistry-derivatives",
+      "title": "Chemistry — Derivatives",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-derivatives.svg"
+    },
+    {
+      "slug": "chemistry-skeletal-system",
+      "title": "Chemistry — Skeletal System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-skeletal-system.svg"
+    },
+    {
+      "slug": "chemistry-rock-cycle",
+      "title": "Chemistry — Rock Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-rock-cycle.svg"
+    },
+    {
+      "slug": "chemistry-plant-life",
+      "title": "Chemistry — Plant Life",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-plant-life.svg"
+    },
+    {
+      "slug": "chemistry-vertebrates",
+      "title": "Chemistry — Vertebrates",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-vertebrates.svg"
+    },
+    {
+      "slug": "chemistry-human-memory",
+      "title": "Chemistry — Human Memory",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-human-memory.svg"
+    },
+    {
+      "slug": "chemistry-mitosis",
+      "title": "Chemistry — Mitosis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-mitosis.svg"
+    },
+    {
+      "slug": "chemistry-chemical-bonds",
+      "title": "Chemistry — Chemical Bonds",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-chemical-bonds.svg"
+    },
+    {
+      "slug": "chemistry-kinematics",
+      "title": "Chemistry — Kinematics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-kinematics.svg"
+    },
+    {
+      "slug": "chemistry-linear-functions",
+      "title": "Chemistry — Linear Functions",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-linear-functions.svg"
+    },
+    {
+      "slug": "chemistry-the-cold-war",
+      "title": "Chemistry — The Cold War",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-the-cold-war.svg"
+    },
+    {
+      "slug": "chemistry-climate-zones",
+      "title": "Chemistry — Climate Zones",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-climate-zones.svg"
+    },
+    {
+      "slug": "chemistry-market-structures",
+      "title": "Chemistry — Market Structures",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-market-structures.svg"
+    },
+    {
+      "slug": "chemistry-star-life-cycle",
+      "title": "Chemistry — Star Life Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-star-life-cycle.svg"
+    },
+    {
+      "slug": "chemistry-ecosystems",
+      "title": "Chemistry — Ecosystems",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-ecosystems.svg"
+    },
+    {
+      "slug": "chemistry-sentence-structure",
+      "title": "Chemistry — Sentence Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/chemistry-sentence-structure.svg"
+    },
+    {
+      "slug": "physics-cell-structure",
+      "title": "Physics — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-cell-structure.svg"
+    },
+    {
+      "slug": "physics-photosynthesis",
+      "title": "Physics — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-photosynthesis.svg"
+    },
+    {
+      "slug": "physics-periodic-table",
+      "title": "Physics — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-periodic-table.svg"
+    },
+    {
+      "slug": "physics-newtons-laws",
+      "title": "Physics — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-newtons-laws.svg"
+    },
+    {
+      "slug": "physics-quadratic-equations",
+      "title": "Physics — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-quadratic-equations.svg"
+    },
+    {
+      "slug": "physics-french-revolution",
+      "title": "Physics — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-french-revolution.svg"
+    },
+    {
+      "slug": "physics-plate-tectonics",
+      "title": "Physics — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-plate-tectonics.svg"
+    },
+    {
+      "slug": "physics-supply-and-demand",
+      "title": "Physics — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-supply-and-demand.svg"
+    },
+    {
+      "slug": "physics-solar-system",
+      "title": "Physics — Solar System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-solar-system.svg"
+    },
+    {
+      "slug": "physics-food-webs",
+      "title": "Physics — Food Webs",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-food-webs.svg"
+    },
+    {
+      "slug": "physics-parts-of-speech",
+      "title": "Physics — Parts Of Speech",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-parts-of-speech.svg"
+    },
+    {
+      "slug": "physics-the-water-cycle",
+      "title": "Physics — The Water Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-the-water-cycle.svg"
+    },
+    {
+      "slug": "physics-bill-of-rights",
+      "title": "Physics — Bill Of Rights",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-bill-of-rights.svg"
+    },
+    {
+      "slug": "physics-probability",
+      "title": "Physics — Probability",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-probability.svg"
+    },
+    {
+      "slug": "physics-derivatives",
+      "title": "Physics — Derivatives",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-derivatives.svg"
+    },
+    {
+      "slug": "physics-skeletal-system",
+      "title": "Physics — Skeletal System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-skeletal-system.svg"
+    },
+    {
+      "slug": "physics-rock-cycle",
+      "title": "Physics — Rock Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-rock-cycle.svg"
+    },
+    {
+      "slug": "physics-plant-life",
+      "title": "Physics — Plant Life",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-plant-life.svg"
+    },
+    {
+      "slug": "physics-vertebrates",
+      "title": "Physics — Vertebrates",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-vertebrates.svg"
+    },
+    {
+      "slug": "physics-human-memory",
+      "title": "Physics — Human Memory",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-human-memory.svg"
+    },
+    {
+      "slug": "physics-mitosis",
+      "title": "Physics — Mitosis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-mitosis.svg"
+    },
+    {
+      "slug": "physics-chemical-bonds",
+      "title": "Physics — Chemical Bonds",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-chemical-bonds.svg"
+    },
+    {
+      "slug": "physics-kinematics",
+      "title": "Physics — Kinematics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-kinematics.svg"
+    },
+    {
+      "slug": "physics-linear-functions",
+      "title": "Physics — Linear Functions",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-linear-functions.svg"
+    },
+    {
+      "slug": "physics-the-cold-war",
+      "title": "Physics — The Cold War",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-the-cold-war.svg"
+    },
+    {
+      "slug": "physics-climate-zones",
+      "title": "Physics — Climate Zones",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-climate-zones.svg"
+    },
+    {
+      "slug": "physics-market-structures",
+      "title": "Physics — Market Structures",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-market-structures.svg"
+    },
+    {
+      "slug": "physics-star-life-cycle",
+      "title": "Physics — Star Life Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-star-life-cycle.svg"
+    },
+    {
+      "slug": "physics-ecosystems",
+      "title": "Physics — Ecosystems",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-ecosystems.svg"
+    },
+    {
+      "slug": "physics-sentence-structure",
+      "title": "Physics — Sentence Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/physics-sentence-structure.svg"
+    },
+    {
+      "slug": "algebra-cell-structure",
+      "title": "Algebra — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-cell-structure.svg"
+    },
+    {
+      "slug": "algebra-photosynthesis",
+      "title": "Algebra — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-photosynthesis.svg"
+    },
+    {
+      "slug": "algebra-periodic-table",
+      "title": "Algebra — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-periodic-table.svg"
+    },
+    {
+      "slug": "algebra-newtons-laws",
+      "title": "Algebra — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-newtons-laws.svg"
+    },
+    {
+      "slug": "algebra-quadratic-equations",
+      "title": "Algebra — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-quadratic-equations.svg"
+    },
+    {
+      "slug": "algebra-french-revolution",
+      "title": "Algebra — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-french-revolution.svg"
+    },
+    {
+      "slug": "algebra-plate-tectonics",
+      "title": "Algebra — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-plate-tectonics.svg"
+    },
+    {
+      "slug": "algebra-supply-and-demand",
+      "title": "Algebra — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-supply-and-demand.svg"
+    },
+    {
+      "slug": "algebra-solar-system",
+      "title": "Algebra — Solar System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-solar-system.svg"
+    },
+    {
+      "slug": "algebra-food-webs",
+      "title": "Algebra — Food Webs",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-food-webs.svg"
+    },
+    {
+      "slug": "algebra-parts-of-speech",
+      "title": "Algebra — Parts Of Speech",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-parts-of-speech.svg"
+    },
+    {
+      "slug": "algebra-the-water-cycle",
+      "title": "Algebra — The Water Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-the-water-cycle.svg"
+    },
+    {
+      "slug": "algebra-bill-of-rights",
+      "title": "Algebra — Bill Of Rights",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-bill-of-rights.svg"
+    },
+    {
+      "slug": "algebra-probability",
+      "title": "Algebra — Probability",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-probability.svg"
+    },
+    {
+      "slug": "algebra-derivatives",
+      "title": "Algebra — Derivatives",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-derivatives.svg"
+    },
+    {
+      "slug": "algebra-skeletal-system",
+      "title": "Algebra — Skeletal System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-skeletal-system.svg"
+    },
+    {
+      "slug": "algebra-rock-cycle",
+      "title": "Algebra — Rock Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-rock-cycle.svg"
+    },
+    {
+      "slug": "algebra-plant-life",
+      "title": "Algebra — Plant Life",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-plant-life.svg"
+    },
+    {
+      "slug": "algebra-vertebrates",
+      "title": "Algebra — Vertebrates",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-vertebrates.svg"
+    },
+    {
+      "slug": "algebra-human-memory",
+      "title": "Algebra — Human Memory",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-human-memory.svg"
+    },
+    {
+      "slug": "algebra-mitosis",
+      "title": "Algebra — Mitosis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-mitosis.svg"
+    },
+    {
+      "slug": "algebra-chemical-bonds",
+      "title": "Algebra — Chemical Bonds",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-chemical-bonds.svg"
+    },
+    {
+      "slug": "algebra-kinematics",
+      "title": "Algebra — Kinematics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-kinematics.svg"
+    },
+    {
+      "slug": "algebra-linear-functions",
+      "title": "Algebra — Linear Functions",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-linear-functions.svg"
+    },
+    {
+      "slug": "algebra-the-cold-war",
+      "title": "Algebra — The Cold War",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-the-cold-war.svg"
+    },
+    {
+      "slug": "algebra-climate-zones",
+      "title": "Algebra — Climate Zones",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-climate-zones.svg"
+    },
+    {
+      "slug": "algebra-market-structures",
+      "title": "Algebra — Market Structures",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-market-structures.svg"
+    },
+    {
+      "slug": "algebra-star-life-cycle",
+      "title": "Algebra — Star Life Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-star-life-cycle.svg"
+    },
+    {
+      "slug": "algebra-ecosystems",
+      "title": "Algebra — Ecosystems",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-ecosystems.svg"
+    },
+    {
+      "slug": "algebra-sentence-structure",
+      "title": "Algebra — Sentence Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/algebra-sentence-structure.svg"
+    },
+    {
+      "slug": "geometry-cell-structure",
+      "title": "Geometry — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-cell-structure.svg"
+    },
+    {
+      "slug": "geometry-photosynthesis",
+      "title": "Geometry — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-photosynthesis.svg"
+    },
+    {
+      "slug": "geometry-periodic-table",
+      "title": "Geometry — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-periodic-table.svg"
+    },
+    {
+      "slug": "geometry-newtons-laws",
+      "title": "Geometry — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-newtons-laws.svg"
+    },
+    {
+      "slug": "geometry-quadratic-equations",
+      "title": "Geometry — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-quadratic-equations.svg"
+    },
+    {
+      "slug": "geometry-french-revolution",
+      "title": "Geometry — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-french-revolution.svg"
+    },
+    {
+      "slug": "geometry-plate-tectonics",
+      "title": "Geometry — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-plate-tectonics.svg"
+    },
+    {
+      "slug": "geometry-supply-and-demand",
+      "title": "Geometry — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-supply-and-demand.svg"
+    },
+    {
+      "slug": "geometry-solar-system",
+      "title": "Geometry — Solar System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-solar-system.svg"
+    },
+    {
+      "slug": "geometry-food-webs",
+      "title": "Geometry — Food Webs",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-food-webs.svg"
+    },
+    {
+      "slug": "geometry-parts-of-speech",
+      "title": "Geometry — Parts Of Speech",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-parts-of-speech.svg"
+    },
+    {
+      "slug": "geometry-the-water-cycle",
+      "title": "Geometry — The Water Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-the-water-cycle.svg"
+    },
+    {
+      "slug": "geometry-bill-of-rights",
+      "title": "Geometry — Bill Of Rights",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-bill-of-rights.svg"
+    },
+    {
+      "slug": "geometry-probability",
+      "title": "Geometry — Probability",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-probability.svg"
+    },
+    {
+      "slug": "geometry-derivatives",
+      "title": "Geometry — Derivatives",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-derivatives.svg"
+    },
+    {
+      "slug": "geometry-skeletal-system",
+      "title": "Geometry — Skeletal System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-skeletal-system.svg"
+    },
+    {
+      "slug": "geometry-rock-cycle",
+      "title": "Geometry — Rock Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-rock-cycle.svg"
+    },
+    {
+      "slug": "geometry-plant-life",
+      "title": "Geometry — Plant Life",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-plant-life.svg"
+    },
+    {
+      "slug": "geometry-vertebrates",
+      "title": "Geometry — Vertebrates",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-vertebrates.svg"
+    },
+    {
+      "slug": "geometry-human-memory",
+      "title": "Geometry — Human Memory",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-human-memory.svg"
+    },
+    {
+      "slug": "geometry-mitosis",
+      "title": "Geometry — Mitosis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-mitosis.svg"
+    },
+    {
+      "slug": "geometry-chemical-bonds",
+      "title": "Geometry — Chemical Bonds",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-chemical-bonds.svg"
+    },
+    {
+      "slug": "geometry-kinematics",
+      "title": "Geometry — Kinematics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-kinematics.svg"
+    },
+    {
+      "slug": "geometry-linear-functions",
+      "title": "Geometry — Linear Functions",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-linear-functions.svg"
+    },
+    {
+      "slug": "geometry-the-cold-war",
+      "title": "Geometry — The Cold War",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-the-cold-war.svg"
+    },
+    {
+      "slug": "geometry-climate-zones",
+      "title": "Geometry — Climate Zones",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-climate-zones.svg"
+    },
+    {
+      "slug": "geometry-market-structures",
+      "title": "Geometry — Market Structures",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-market-structures.svg"
+    },
+    {
+      "slug": "geometry-star-life-cycle",
+      "title": "Geometry — Star Life Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-star-life-cycle.svg"
+    },
+    {
+      "slug": "geometry-ecosystems",
+      "title": "Geometry — Ecosystems",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-ecosystems.svg"
+    },
+    {
+      "slug": "geometry-sentence-structure",
+      "title": "Geometry — Sentence Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/geometry-sentence-structure.svg"
+    },
+    {
+      "slug": "calculus-cell-structure",
+      "title": "Calculus — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-cell-structure.svg"
+    },
+    {
+      "slug": "calculus-photosynthesis",
+      "title": "Calculus — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-photosynthesis.svg"
+    },
+    {
+      "slug": "calculus-periodic-table",
+      "title": "Calculus — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-periodic-table.svg"
+    },
+    {
+      "slug": "calculus-newtons-laws",
+      "title": "Calculus — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-newtons-laws.svg"
+    },
+    {
+      "slug": "calculus-quadratic-equations",
+      "title": "Calculus — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-quadratic-equations.svg"
+    },
+    {
+      "slug": "calculus-french-revolution",
+      "title": "Calculus — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-french-revolution.svg"
+    },
+    {
+      "slug": "calculus-plate-tectonics",
+      "title": "Calculus — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-plate-tectonics.svg"
+    },
+    {
+      "slug": "calculus-supply-and-demand",
+      "title": "Calculus — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-supply-and-demand.svg"
+    },
+    {
+      "slug": "calculus-solar-system",
+      "title": "Calculus — Solar System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-solar-system.svg"
+    },
+    {
+      "slug": "calculus-food-webs",
+      "title": "Calculus — Food Webs",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-food-webs.svg"
+    },
+    {
+      "slug": "calculus-parts-of-speech",
+      "title": "Calculus — Parts Of Speech",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-parts-of-speech.svg"
+    },
+    {
+      "slug": "calculus-the-water-cycle",
+      "title": "Calculus — The Water Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-the-water-cycle.svg"
+    },
+    {
+      "slug": "calculus-bill-of-rights",
+      "title": "Calculus — Bill Of Rights",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-bill-of-rights.svg"
+    },
+    {
+      "slug": "calculus-probability",
+      "title": "Calculus — Probability",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-probability.svg"
+    },
+    {
+      "slug": "calculus-derivatives",
+      "title": "Calculus — Derivatives",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-derivatives.svg"
+    },
+    {
+      "slug": "calculus-skeletal-system",
+      "title": "Calculus — Skeletal System",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-skeletal-system.svg"
+    },
+    {
+      "slug": "calculus-rock-cycle",
+      "title": "Calculus — Rock Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-rock-cycle.svg"
+    },
+    {
+      "slug": "calculus-plant-life",
+      "title": "Calculus — Plant Life",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-plant-life.svg"
+    },
+    {
+      "slug": "calculus-vertebrates",
+      "title": "Calculus — Vertebrates",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-vertebrates.svg"
+    },
+    {
+      "slug": "calculus-human-memory",
+      "title": "Calculus — Human Memory",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-human-memory.svg"
+    },
+    {
+      "slug": "calculus-mitosis",
+      "title": "Calculus — Mitosis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-mitosis.svg"
+    },
+    {
+      "slug": "calculus-chemical-bonds",
+      "title": "Calculus — Chemical Bonds",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-chemical-bonds.svg"
+    },
+    {
+      "slug": "calculus-kinematics",
+      "title": "Calculus — Kinematics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-kinematics.svg"
+    },
+    {
+      "slug": "calculus-linear-functions",
+      "title": "Calculus — Linear Functions",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-linear-functions.svg"
+    },
+    {
+      "slug": "calculus-the-cold-war",
+      "title": "Calculus — The Cold War",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-the-cold-war.svg"
+    },
+    {
+      "slug": "calculus-climate-zones",
+      "title": "Calculus — Climate Zones",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-climate-zones.svg"
+    },
+    {
+      "slug": "calculus-market-structures",
+      "title": "Calculus — Market Structures",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-market-structures.svg"
+    },
+    {
+      "slug": "calculus-star-life-cycle",
+      "title": "Calculus — Star Life Cycle",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-star-life-cycle.svg"
+    },
+    {
+      "slug": "calculus-ecosystems",
+      "title": "Calculus — Ecosystems",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-ecosystems.svg"
+    },
+    {
+      "slug": "calculus-sentence-structure",
+      "title": "Calculus — Sentence Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/calculus-sentence-structure.svg"
+    },
+    {
+      "slug": "statistics-cell-structure",
+      "title": "Statistics — Cell Structure",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-cell-structure.svg"
+    },
+    {
+      "slug": "statistics-photosynthesis",
+      "title": "Statistics — Photosynthesis",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-photosynthesis.svg"
+    },
+    {
+      "slug": "statistics-periodic-table",
+      "title": "Statistics — Periodic Table",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-periodic-table.svg"
+    },
+    {
+      "slug": "statistics-newtons-laws",
+      "title": "Statistics — Newtons Laws",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-newtons-laws.svg"
+    },
+    {
+      "slug": "statistics-quadratic-equations",
+      "title": "Statistics — Quadratic Equations",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-quadratic-equations.svg"
+    },
+    {
+      "slug": "statistics-french-revolution",
+      "title": "Statistics — French Revolution",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-french-revolution.svg"
+    },
+    {
+      "slug": "statistics-plate-tectonics",
+      "title": "Statistics — Plate Tectonics",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-plate-tectonics.svg"
+    },
+    {
+      "slug": "statistics-supply-and-demand",
+      "title": "Statistics — Supply And Demand",
+      "url": "https://cdn.jsdelivr.net/gh/PrismDev3/interactive-study-modules@main/cdn/statistics-supply-and-demand.svg"
     }
   ]
 }

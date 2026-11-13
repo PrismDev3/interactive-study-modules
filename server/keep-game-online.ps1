@@ -35,8 +35,8 @@ function Test-GameServer {
     }
 }
 
-# Keep the stable named tunnel running (distinct from the user's other 'chalkle' tunnel,
-# matched by its config path). Only starts it if it isn't already up.
+# Keep the stable named tunnel up (starts on startup with this boot task; restarts it if it
+# ever stops). Matched by its config path so it stays distinct from the user's 'chalkle' tunnel.
 function Ensure-LswobTunnel {
     try {
         $running = Get-CimInstance Win32_Process -Filter "Name='cloudflared.exe'" -ErrorAction SilentlyContinue |

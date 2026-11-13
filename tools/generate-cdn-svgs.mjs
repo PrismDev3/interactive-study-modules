@@ -91,6 +91,9 @@ const md = [
 ].join('\n');
 fs.writeFileSync(path.join(ROOT, 'LINKS.md'), md);
 
+// Plain list of just the URLs, one per line — for bulk copy/paste.
+fs.writeFileSync(path.join(ROOT, 'links.txt'), made.map(m => m.url).join('\n') + '\n');
+
 console.log(`Generated ${made.length} SVG launchers in cdn/`);
 console.log(`Endpoint : ${ENDPOINT}`);
 console.log(`Fallback : ${FALLBACK}`);

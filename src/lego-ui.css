@@ -2690,3 +2690,15 @@ body.dorm #sflix-bar.show { display: flex; }
   #locker-tabs button { flex: 1; }
   #suit-grid, #suit-grid-heroes, #gear-grid, #emote-shop { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
 }
+
+/* Phones: dark scrim behind sub-menus so text never sits on Spidey unreadably */
+@media (max-width: 960px), (max-height: 500px) {
+  #loading-screen:has(#scr-single.show, #scr-rooms.show, #scr-chapters.show)::before {
+    content: ''; position: fixed; inset: 0; z-index: 1; pointer-events: none;
+    background: linear-gradient(90deg, rgba(6,10,18,.88) 0%, rgba(6,10,18,.7) 55%, rgba(6,10,18,.25) 100%); }
+  #scr-single, #scr-rooms, #scr-chapters { z-index: 2; }
+  #loading-screen:has(#scr-single.show, #scr-rooms.show, #scr-chapters.show) #title-profile { display: none; }
+}
+
+/* No double-tap / pinch zoom anywhere (iOS ignores user-scalable=no) */
+html, body, button, a, input, select, textarea, label, [role="button"], .tt-item { touch-action: manipulation; }

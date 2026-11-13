@@ -123,7 +123,7 @@ export class Driving {
     if (!this.car) {
       const near = this.controller.inputLocked ? null : this.nearest();
       this._bubble(near);
-      if (near && !this._hinted) { this._hinted = true; this.hud?.toast?.('Press H to drive'); }
+      if (near && !this._hinted && !document.documentElement.classList.contains('touch')) { this._hinted = true; this.hud?.toast?.('Press H to drive'); }
       return;
     }
     this._bubble(null);
